@@ -92,7 +92,8 @@ var svg = d3.select("#container")
 queue()
 // .defer(d3.json, "https://raw.githubusercontent.com/chloemow/data/world.geojson") 
 // found someone with same file
-    .defer(d3.json, "https://raw.githubusercontent.com/hampan-da/visualization/world.geojson")
+ //   .defer(d3.json, "https://raw.githubusercontent.com/hampan-da/visualization/world.geojson")
+     .defer(d3.json, "https://hampan-da.github.io/visualization.github.io/world.geojson")
 //    .defer(d3.csv, "https://raw.githubusercontent.com/chloemow/data/train.csv", function(d) {
     .defer(d3.csv, "Data/train.csv", function(d) {
 
