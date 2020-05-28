@@ -10,7 +10,7 @@
 
     <script src="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js"></script>
     <link href="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css" rel="stylesheet" />
-    <link href='./Page4/page4style.css' rel='stylesheet' />
+    <link href='./Chuyin/page4style.css' rel='stylesheet' />
 
     <script charset="utf-8" src="https://d3js.org/d3.v4.min.js"></script>
     <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
@@ -44,7 +44,7 @@
     
     <link rel="stylesheet" href="css/flaticon.css">
     <link rel="stylesheet" href="css/icomoon.css">
-    <link rel="stylesheet" href="./Page4/style.css">
+    <link rel="stylesheet" href="./Chuyin/style.css">
 
 
     <style>
@@ -219,7 +219,7 @@
         //            console.log(1)
         //            console.log(poli);
         //        })
-        d3.csv("./Page4/G20_1.csv", function(G20transportdata) {
+        d3.csv("./Chuyin/G20_1.csv", function(G20transportdata) {
 
             //            console.log(G20transportdata)
 
@@ -251,23 +251,23 @@
             //            JSON.stringify(products)
             //            var tmp = JSON.stringify(geojson.features[0].properties.policy)
             console.log(JSON.parse(geojson.features[0].properties.policy))
-            d3.json("./Page4/Grocery_pharmacy.json", function(Dataofcategory) {
+            d3.json("./Chuyin/Grocery_pharmacy.json", function(Dataofcategory) {
                 chartData_Grocery = Dataofcategory;
                 console.log(Dataofcategory)
             })
-            d3.json("./Page4/Parks.json", function(Dataofcategory) {
+            d3.json("./Chuyin/Parks.json", function(Dataofcategory) {
                 chartData_Parks = Dataofcategory;
             })
-            d3.json("./Page4/Residential.json", function(Dataofcategory) {
+            d3.json("./Chuyin/Residential.json", function(Dataofcategory) {
                 chartData_Residential = Dataofcategory;
             })
-            d3.json("./Page4/Retail_recreation.json", function(Dataofcategory) {
+            d3.json("./Chuyin/Retail_recreation.json", function(Dataofcategory) {
                 chartData_Retail_recreation = Dataofcategory;
             })
-            d3.json("./Page4/Transit stations.json", function(Dataofcategory) {
+            d3.json("./Chuyin/Transit stations.json", function(Dataofcategory) {
                 chartData_Transit = Dataofcategory;
             })
-            d3.json("./Page4/Workplaces.json", function(Dataofcategory) {
+            d3.json("./Chuyin/Workplaces.json", function(Dataofcategory) {
                 chartData_Workplaces = Dataofcategory;
             })
 
