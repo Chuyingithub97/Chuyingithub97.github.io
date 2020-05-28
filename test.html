@@ -1,0 +1,335 @@
+<html>
+<head>
+    <meta charset='utf-8' />
+    <title>test</title>
+    <meta name='viewport' content='initial-scale=1,maximum-scale=1,user-scalable=no' />
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css" rel="stylesheet"/>
+    <script type="text/javascript" src="echarts.min.js"></script>
+    <style>
+        body { margin:0; padding:0; }
+        #map1 { position:absolute; top:0; bottom:0; width:100%; }
+        #map { position:absolute; top:0; bottom:0; width:100%; }
+        #console {position: absolute;width: 260px;margin: 10px;padding: 10px 20px;background: rgba(255,255,255,.04) url(./line.png);background-size: 100% 100%;border: 1px solid rgba(25,186,139,.17);}
+        h1 {font-size: 25px;line-height: 30px;color: white;}
+        h2 {font-size: 16px;line-height: 20px;margin-bottom: 10px;color:whitesmoke}
+        a {text-decoration: none;color:yellow;}
+        p {text-decoration: none;color: whitesmoke;}
+        .session {margin-bottom: 20px;}
+        .row {height: 12px;width: 100%;}
+        .colors {background: linear-gradient(to right,rgba(0, 0, 0, 0),#927903, #ffd403, red);margin-bottom: 5px;}
+        .label {width: 15%;display: inline-block;text-align: center;color: whitesmoke;}
+        .figure {position: absolute; bottom: 10px; right: 10px; border: 1px solid rgba(25,186,139,.17); 
+            background: rgba(255,255,255,.04) url(./line.png);
+            background-size: 100% 100%;}
+        .figure2 {position: absolute; top: 10px; right: 30px; border: 1px solid rgba(25,186,139,.17); 
+            background: rgba(255,255,255,.04) url(./line.png);
+            background-size: 100% 100%;}
+        .t_title{
+            text-align: left;
+            font-size: 18px;
+            color: #fff;
+            font-weight: bold;
+            height: 0.4rem;
+            line-height: 0.4rem;
+            width: 100%;
+            margin-top: 0.4rem;
+        }
+        
+    </style>
+</head>
+
+<body>
+    <div id='map1'>
+        <div id='map'></div>
+        <div id='console'>
+            <h1>COVID-19 (University College London)</h1>
+            <p>Data: <a href='https://voice.baidu.com/act/newpneumonia/newpneumonia'>Cumulative confirmed nationwide</a> in China</p>
+            <div class='session'>
+                <h2>Density</h2>
+                <div class='row colors'>
+                </div>
+                <div class='row labels'>
+                <div class='label'>0</div>
+                <div class='label'>100</div>
+                <div class='label'>150</div>
+                <div class='label'>1000</div>
+              
+                </div>
+            </div>
+            <div class='session' id='sliderbar'>
+                <h2>Day: <label id='active-hour'> 0 </label></h2>
+                <input id='slider' class='row' type='range' min='0' max='30' step='1' value='1' />
+            </div>
+        </div>
+        <div class='figure'>
+            <header class="t_title">
+            
+            </header>
+            <div id='chart' style='width: 600px;height: 300px;'></div>
+        </div>
+    
+        <div class='figure2'>
+            <header></header>
+            <div id='chart2' style='width: 600px;height: 300px;'></div>
+        </div>
+    </div>
+      
+    <script>
+        mapboxgl.accessToken = 'pk.eyJ1IjoiYmFla3kiLCJhIjoiY2s3bnRmdW15MDFnZDNtcWtqZThybmZqOCJ9.qjBK1crnqRbsyvZmvB9RJg'
+        var map = new mapboxgl.Map({
+            container: 'map', // container id
+            style: 'mapbox://styles/baeky/ck9yg806d2dnq1iny9zwzu1wg', // stylesheet location
+            center: [114.02919, 30.58203], // starting position [lng, lat]
+            zoom: 5 // starting zoom
+            
+         });
+
+         map.addControl(new mapboxgl.NavigationControl());
+ 
+        // filters for classifying earthquakes into five categories based on magnitude
+        var mag1 = ["<", ["get", "mag"], 2];
+        var mag2 = ["all", [">=", ["get", "mag"], 2], ["<", ["get", "mag"], 3]];
+        var mag3 = ["all", [">=", ["get", "mag"], 3], ["<", ["get", "mag"], 4]];
+        var mag4 = ["all", [">=", ["get", "mag"], 4], ["<", ["get", "mag"], 5]];
+        var mag5 = [">=", ["get", "mag"], 5];
+        
+        map.on('load', function(){
+            map.addLayer(
+            {
+                'id': 'coronavirus-heat',
+                'type': 'heatmap',
+                'source': {
+                    'type': 'geojson',
+                    'data': './Cdata.geojson'
+                     },
+                'maxzoom': 9,
+                'paint': {
+                    'heatmap-weight': [
+                        'interpolate',
+                        ['linear'],
+                        ['number',['get', 'confirmedNum']],
+                        0, 0,
+                        1000, 1
+                    ],
+                    'heatmap-intensity': [
+                        'interpolate',
+                        ['linear'],
+                        ['zoom'],
+                        0,3,
+                        9,5
+                    ],
+                    'heatmap-color':[
+                        'interpolate',
+                        ['linear'],
+                        ['heatmap-density'],
+                        0,'rgba(0, 0, 0, 0)',
+                        0.1, '#927903',
+                        0.15,'#ffd403',
+                        1,'red'
+                    ],
+                    'heatmap-radius': [
+                        'interpolate',
+                        ['linear'],
+                        ['zoom'],
+                        0, 2,
+                        1, 4,
+                        2, 8,
+                        3, 16,
+                        4, 32,
+                        5, 64,
+                        6, 128,
+                        7, 256,
+                        8, 512,
+                        9, 1024,
+                        10, 2048,
+                        11, 4096,
+                        17, 131072
+                    ],
+                    'heatmap-opacity': [
+                        'interpolate',
+                        ['linear'],
+                        ['zoom'],
+                        5, 0.95,
+                        6, 0.5
+                    ]
+                    
+                },//paint {}
+                filter: ['==', ['number', ['get', 'day']], 0]
+            }, 'waterway-label'  //addLayer{}
+            
+        );
+        document.getElementById('slider').addEventListener('input', function(e) {
+            var Day = parseInt(e.target.value);
+            // update the map
+            map.setFilter('coronavirus-heat', ['==', ['number', ['get', 'day']], Day]);
+
+            // converting 0-23 hour to AMPM format
+            
+
+            // update text in the UI
+            document.getElementById('active-hour').innerText = Day ;
+        });
+        });
+
+        var myChart1 = echarts.init(document.getElementById('chart'));
+        
+
+        option1 = {
+            color: ['#FF0000', '#00FA9A','#808080'],
+            title: {text:'Case Everyday',
+            textStyle:{color: '#fff'}
+                
+            },
+            legend: {
+                data: ['New confirmed', 'New Recover','New Death'],
+                textStyle:{color: '#fff'}
+            },
+            toolbox: {
+                // y: 'bottom',
+                feature: {
+                magicType: {
+                type: ['stack', 'tiled']
+                },
+                dataView: {},
+                saveAsImage: {
+                    pixelRatio: 2
+                    }
+                }
+            },
+            tooltip: {},
+            xAxis: {
+                data: ['01/21','01/22','01/23','01/24','01/25','01/26','01/27','01/28','01/29','01/30','01/31','02/01','02/02','02/03','02/04','02/05','02/06','02/07','02/08','02/09','02/10','02/11','02/12','02/13','02/14','02/15','02/16','02/17','02/18','02/19','02/20'],
+                splitLine: {
+                    show: false
+                },
+                axisLabel: {
+                    inside: false,
+                    textStyle: {
+                        color: '#fff'
+                    }
+                },
+                rotate: 60,
+            },
+            
+            yAxis: {
+                axisLine:{  
+                    lineStyle:{  
+                        color:'#fff',  
+                    }  
+                },
+                splitLine: {
+                  show: false
+              },
+                type: 'value',
+                scale:true,
+            },
+            series: [{
+                name: 'New confirmed',
+                type: 'bar',
+                data: [291,149,131,259,467,688,776,1774,1462,1769,2058,2077,2589,2855,3185,3906,3704,3124,3408,2622,2971,2482,2018,15142,4043,2631,2014,2047,1890,1752,396],
+                animationDelay: function (idx) {
+                    return idx * 10;
+                }
+                }, 
+                {
+                name: 'New Recover',
+                type: 'bar',
+                data: [25,0,0,9,4,0,11,2,52,30,85,55,161,86,193,286,358,347,603,591,640,722,776,1178,856,1472,1213,1430,1792,1869,1805],
+                animationDelay: function (idx) {
+                    return idx * 10 + 100;
+                }
+                },
+                {
+                name: 'New Death',
+                type: 'bar',
+                data: [6,3,8,8,16,15,24,26,26,38,43,46,45,57,65,67,72,72,87,90,95,108,99,252,14,142,143,105,100,139,113],
+                animationDelay: function (idx) {
+                    return idx * 10 + 100;
+                }
+                }
+            ],
+            animationEasing: 'elasticOut',
+            animationDelayUpdate: function (idx) {
+                return idx * 5;
+            }
+        };
+ 
+        // 使用刚指定的配置项和数据显示图表。
+        myChart1.setOption(option1);
+
+        var myChart2 = echarts.init(document.getElementById('chart2'));
+
+        option2 = {
+            color: ['#808080', '#00FA9A','#FF0000'],
+            title: {text:'Case Overall',
+            textStyle:{color: '#fff'}
+                
+            },
+            tooltip: {
+                trigger: 'axis'
+            },
+            legend: {
+                data: ['Death', 'Cures', 'Confirmed'],
+                textStyle:{color: '#fff'}
+            },
+            grid: {
+                left: '3%',
+                right: '4%',
+                bottom: '3%',
+                containLabel: true
+            },
+            toolbox: {
+                feature: {
+                    saveAsImage: {}
+                }
+            },
+            xAxis: {
+                type: 'category',
+                boundaryGap: false,
+                axisLine:{  
+                    lineStyle:{  
+                        color:'#fff',  
+                    }  
+                },
+                data: ['01/21','01/22','01/23','01/24','01/25','01/26','01/27','01/28','01/29','01/30','01/31','02/01','02/02','02/03','02/04','02/05','02/06','02/07','02/08','02/09','02/10','02/11','02/12','02/13','02/14','02/15','02/16','02/17','02/18','02/19','02/20']
+            },
+            yAxis: {
+                axisLine:{  
+                    lineStyle:{  
+                        color:'#fff',  
+                    }  
+                },
+                splitLine: {
+                  show: false
+                },
+                type: 'value',
+                scale:true,
+            },
+            series: [
+            {
+                name: 'Death',
+                type: 'line',
+                stack: '总量',
+                data: [6,9,17,25,41,56,80,106,132,170,213,259,304,361,426,493,565,637,724,814,909,1017,1116,1368,1382,1524,1667,1772,1872,2009,2122]
+            },
+            {
+                name: 'Cures',
+                type: 'line',
+                stack: '总量',
+                data: [25,25,25,34,38,38,49,51,103,133,218,273,434,520,713,999,1357,1704,2307,2898,3528,4260,5036,6214,7070,8542,9755,11185,12977,14846,16651]
+            },
+            {
+                name: 'Confirmed',
+                type: 'line',
+                stack: '总量',
+                data: [291,440,571,830,1297,1985,2761,4535,5997,7766,9824,11901,14490,17345,20530,24436,28140,31264,34672,37294,40265,42747,44765,59907,63950,66581,68595,70642,72532,74284,74680]
+            },
+        
+            ]
+        };
+        myChart2.setOption(option2);
+
+        </script>
+</body>
+</html>
