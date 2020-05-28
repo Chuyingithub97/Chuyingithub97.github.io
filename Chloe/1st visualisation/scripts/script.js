@@ -95,7 +95,7 @@ queue()
  //   .defer(d3.json, "https://raw.githubusercontent.com/hampan-da/visualization/world.geojson")
      .defer(d3.json, "https://hampan-da.github.io/visualization.github.io/world.geojson")
 //    .defer(d3.csv, "https://raw.githubusercontent.com/chloemow/data/train.csv", function(d) {
-    .defer(d3.csv, "Data/train.csv", function(d) {
+    .defer(d3.csv, "data/train.csv", function(d) {
 
         // formating csv data
         d.Fatalities = +d.Fatalities;
@@ -106,7 +106,7 @@ queue()
 
         return d;
     })
-    .defer(d3.csv, "Data/stockprices19_20.csv", function(data) { return data; })
+    .defer(d3.csv, "data/stockprices19_20.csv", function(data) { return data; })
     .await(ready);
 
 // append g to svg
