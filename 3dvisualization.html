@@ -556,6 +556,7 @@ function chartInit(data) {
     type: 'text/css'
   }, null, document.getElementsByTagName('head')[0]);
 
+  // https://www.highcharts.com/docs/chart-design-and-style/themes 
   Highcharts.theme = {
     colors: ['#2b908f', '#90ee7e', '#f45b5b', '#7798BF', '#aaeeee', '#ff0066', '#eeaaee',
       '#55BF3B', '#DF5353', '#7798BF', '#aaeeee'
@@ -764,10 +765,10 @@ function chartInit(data) {
   // Apply the theme
   Highcharts.setOptions(Highcharts.theme);
 
-
+// https://api.highcharts.com/class-reference/Highcharts.Chart#container
   chart = Highcharts.chart('container', {
     chart: {
-      zoomType: 'x',
+      zoomType: 'x', //what dimension can be zoomed = x axis
       events: {
         selection: function(event) {
             var layer = "null";
