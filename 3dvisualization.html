@@ -474,6 +474,8 @@ map.addLayer({
 // When clicking on a feature in the states/country layer, open a popup at the
 // location of the click, with description HTML from its properties.
         //unfinished
+        //https://docs.mapbox.com/mapbox-gl-js/example/polygon-popup-on-click/
+        //https://docs.mapbox.com/mapbox-gl-js/example/popup/
 map.on('click', 'stock-extrusion', function(e) {
 new mapboxgl.Popup()
 .setLngLat(e.lngLat)
@@ -501,7 +503,7 @@ map.getCanvas().style.cursor = '';
           
       });
 
-      //click on tree to view ConfirmedC in a popup
+      //click on to view ConfirmedC (confirmed cases) in a popup
       
         map.addControl(new mapboxgl.NavigationControl());
         
