@@ -85,14 +85,7 @@
             
          });
 
-         map.addControl(new mapboxgl.NavigationControl());
- 
-        // filters for classifying earthquakes into five categories based on magnitude
-        var mag1 = ["<", ["get", "mag"], 2];
-        var mag2 = ["all", [">=", ["get", "mag"], 2], ["<", ["get", "mag"], 3]];
-        var mag3 = ["all", [">=", ["get", "mag"], 3], ["<", ["get", "mag"], 4]];
-        var mag4 = ["all", [">=", ["get", "mag"], 4], ["<", ["get", "mag"], 5]];
-        var mag5 = [">=", ["get", "mag"], 5];
+        
         
         map.on('load', function(){
             map.addLayer(
