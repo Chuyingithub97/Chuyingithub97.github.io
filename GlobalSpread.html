@@ -1,0 +1,214 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="utf-8" />
+<title>Global Spread</title>
+<meta name="viewport" content="initial-scale=1,maximum-scale=1,user-scalable=no" />
+<script src="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.js"></script>
+    <script charset="utf-8" src="https://d3js.org/d3.v4.min.js"></script>
+    <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
+<link href="https://api.mapbox.com/mapbox-gl-js/v1.10.1/mapbox-gl.css" rel="stylesheet" />
+<style>
+	body { margin: 0; padding: 0; }
+	#map { position: absolute; top: 0; bottom: 0; width: 100%; }
+</style>
+</head>
+<body>
+<style>
+.map-overlay {
+font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+position: absolute;
+width: 25%;
+top: 0;
+left: 0;
+padding: 10px;
+}
+ 
+.map-overlay .map-overlay-inner {
+background-color: #fff;
+box-shadow: 0 1px 2px rgba(0, 0, 0, 0.2);
+border-radius: 3px;
+padding: 10px;
+margin-bottom: 10px;
+}
+ 
+.map-overlay h2 {
+line-height: 24px;
+display: block;
+margin: 0 0 10px;
+}
+ 
+.map-overlay .legend .bar {
+height: 10px;
+width: 100%;
+background: linear-gradient(to right, #fca107, #7f3121);
+
+}
+ 
+.map-overlay input {
+background-color: transparent;
+display: inline-block;
+width: 100%;
+position: relative;
+margin: 0;
+cursor: ew-resize;
+}
+</style>
+ 
+<div id="map"></div>
+ 
+<div class="map-overlay top">
+<div class="map-overlay-inner">
+<h2> Global Covid-19 Daily Confirmed Cases</h2>
+<label id="month"></label>
+<input id="slider" type="range" min="0" max="20" step="1" value="0" />
+</div>
+<div class="map-overlay-inner">
+<div id="legend" class="legend">
+<div class="bar"></div>
+<div>Number of Cases</div>
+</div>
+</div>
+</div>
+ 
+<script src="d3.v3.min.js" charset="utf-8"></script>
+<script>
+	// TO MAKE THE MAP APPEAR YOU MUST
+	// ADD YOUR ACCESS TOKEN FROM
+	// https://account.mapbox.com
+	mapboxgl.accessToken = 'pk.eyJ1IjoiZW1pbHl1Y2wiLCJhIjoiY2s1cDg5NjIwMWQ1ajNtcndmdmRuYzk3OCJ9.Q04kYUwYgf-RFoMQNgkKVA';
+var map = new mapboxgl.Map({
+container: 'map',
+style: 'mapbox://styles/emilyucl/ck9cifnv10l1o1ipe8spunvb1',
+center: [31.4606, 20.7927],
+zoom: 0.5
+});
+ 
+var months = [
+'Start Date',
+'1 Feb 2020',
+'2 Feb 2020',
+'3 Feb 2020',
+'4 Feb 2020',
+'5 Feb 2020',
+'6 Feb 2020',
+'7 Feb 2020',
+'8 Feb 2020',
+'9 Feb 2020',
+'10 Feb 2020',
+'11 Feb 2020',
+'12 Feb 2020',
+'13 Feb 2020',
+'14 Feb 2020',
+'15 Feb 2020',
+'16 Feb 2020',
+'17 Feb 2020',
+'18 Feb 2020',
+'19 Feb 2020',
+'20 Feb 2020'
+];
+ 
+function filterBy(month) {
+var filters = ['==', 'month', month];
+map.setFilter('earthquake-circles', filters);
+map.setFilter('earthquake-labels', filters);
+ 
+// Set the label to the month
+document.getElementById('month').textContent = months[month];
+}
+ 
+map.on('load', function() {
+// Data courtesy of http://earthquake.usgs.gov/
+// Query for significant earthquakes in 2015 URL request looked like this:
+// http://earthquake.usgs.gov/fdsnws/event/1/query
+//    ?format=geojson
+//    &starttime=2015-01-01
+//    &endtime=2015-12-31
+//    &minmagnitude=6'
+//
+// Here we're using d3 to help us make the ajax request but you can use
+// Any request method (library or otherwise) you wish.
+d3.json('train.geojson',
+function(err, data) {
+if (err) throw err;
+ 
+// Create a month property value based on time
+// used to filter against.
+data.features = data.features.map(function(d) {
+d.properties.month = new Date(d.properties.Date).getDate();
+return d;
+});
+ 
+map.addSource('earthquakes', {
+'type': 'geojson',
+data: data
+});
+ 
+map.addLayer({
+'id': 'earthquake-circles',
+'type': 'circle',
+'source': 'earthquakes',
+'paint': {
+'circle-color': [
+'interpolate',
+['linear'],
+['get', 'ConfirmedC'],
+6,
+'#FCA107',
+8,
+'#7F3121'
+],
+'circle-opacity': 0.2,
+'circle-radius': [
+'interpolate',
+['linear'],
+['get', 'ConfirmedC'],
+6,
+30,
+8,
+70
+]
+}
+});
+ 
+map.addLayer({
+'id': 'earthquake-labels',
+'type': 'symbol',
+'source': 'earthquakes',
+'layout': {
+'text-field': [
+'concat',
+['to-string', ['get', 'ConfirmedC']],
+
+],
+'text-font': [
+'Open Sans Bold',
+'Arial Unicode MS Bold'
+],
+
+'text-size': 12
+    
+},
+
+'paint': {
+'text-color': 'rgba(0,0,0,0.5)'
+}
+});
+ 
+// Set filter to first month of the year
+// 0 = January
+filterBy(0);
+ 
+document
+.getElementById('slider')
+.addEventListener('input', function(e) {
+var month = parseInt(e.target.value);
+filterBy(month);
+});
+}
+);
+});
+</script>
+ 
+</body>
+</html>
