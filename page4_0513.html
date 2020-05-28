@@ -1,0 +1,537 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <title>Change on transportation of G20 country</title>
+    <meta name="viewport" content="initial-scale=1.0, user-scalable=no" />
+
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css">
+
+
+    <script src="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.js"></script>
+    <link href="https://api.mapbox.com/mapbox-gl-js/v1.6.1/mapbox-gl.css" rel="stylesheet" />
+    <link href='./Page4/page4style.css' rel='stylesheet' />
+
+    <script charset="utf-8" src="https://d3js.org/d3.v4.min.js"></script>
+    <script charset="utf-8" src="https://cdnjs.cloudflare.com/ajax/libs/dimple/2.3.0/dimple.latest.min.js"></script>
+
+
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js"></script>
+    
+    
+    
+        <meta charset="utf-8">
+<!--    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">-->
+    
+<!--    <link href="https://fonts.googleapis.com/css?family=Roboto:300,400,700" rel="stylesheet">-->
+
+    <link rel="stylesheet" href="css/open-iconic-bootstrap.min.css">
+<!--    <link rel="stylesheet" href="css/animate.css">-->
+    
+<!--    <link rel="stylesheet" href="css/owl.carousel.min.css">-->
+<!--    <link rel="stylesheet" href="css/owl.theme.default.min.css">-->
+    <link rel="stylesheet" href="css/magnific-popup.css">
+
+<!--    <link rel="stylesheet" href="css/aos.css">-->
+
+    <link rel="stylesheet" href="css/ionicons.min.css">
+
+<!--    <link rel="stylesheet" href="css/bootstrap-datepicker.css">-->
+    <link rel="stylesheet" href="css/jquery.timepicker.css">
+
+    
+    <link rel="stylesheet" href="css/flaticon.css">
+    <link rel="stylesheet" href="css/icomoon.css">
+    <link rel="stylesheet" href="./Page4/style.css">
+
+
+    <style>
+        body {
+            margin: 0;
+            padding: 0;
+        }
+
+
+        #map {
+            position: absolute;
+            top: 13%;
+            bottom: 0;
+            width: 100%;
+        }
+
+        /*
+        #container {
+            font: 12px/20px 'Helvetica Neue', Arial, Helvetica, sans-serif;
+            position: fixed;
+            height: 320px;
+            width: 450px;
+            min-width: 380px;
+            bottom: 20px;
+            right: 0;
+            padding: 0px;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+            border-radius: 2px;
+            margin: inherit;
+        }
+*/
+
+        #container {
+            position: absolute;
+            bottom: 0%;
+            width: 450px;
+            height: 300px;
+            padding: 10px;
+            ;
+            min-width: 450px;
+            margin: 0;
+            margin-top: 10px;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+            font: 8px
+        }
+
+        #chartContainer {
+            opacity: 100%;
+            position: absolute;
+            bottom: 0%;
+            width: 450px;
+            height: 400px;
+            padding: 10px;
+            ;
+            min-width: 450px;
+            margin: 0;
+            margin-top: 10px;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+            font: 8px
+        }
+
+        ;
+
+        #features {}
+
+
+        #legend {
+            opacity: 100%;
+            top: 12%;
+            left: 70%;
+            height: 120px;
+            margin-top: 20px;
+            width: 5px;
+            margin-right: 0;
+            z-index: 1;
+            padding: 10px;
+            position: absolute;
+            padding: 10px;
+            ;
+            background-color: #fff;
+            box-shadow: 0 1px 2px rgba(0, 0, 0, 0.20);
+            font: 8px;
+
+        }
+
+        .legend-key {
+            display: inline-block;
+            border-radius: 20%;
+            width: 10px;
+            height: 10px;
+            /*            margin-right: 5px;*/
+        }
+    </style>
+
+</head>
+
+<body>
+      <nav class="navbar navbar-expand-lg navbar-dark ftco_navbar bg-dark ftco-navbar-light" id="ftco-navbar">
+    <div class="container">
+      <a class="navbar-brand" href="https://www.ucl.ac.uk"><img src="images/UCL.jpg" alt=""></a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#ftco-nav" aria-controls="ftco-nav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="oi oi-menu"></span> Menu
+      </button>
+
+      <div class="collapse navbar-collapse" id="ftco-nav">
+        <ul class="navbar-nav ml-auto">
+          <li class="nav-item active"><a href="index.html" class="nav-link">Home</a></li>
+          <li class="nav-item"><a href="about.html" class="nav-link">Global</a></li>
+          <li class="nav-item"><a href="test.html" class="nav-link">China</a></li>
+          <li class="nav-item"><a href="doctor.html" class="nav-link">Economy</a></li>
+          <li class="nav-item"><a href="page4_0513.html" class="nav-link">Mobility</a></li>
+        </ul>
+      </div>
+    </div>
+  </nav>    
+    <div id="map"></div>
+
+    <div>
+
+
+        <!--<div class='map-overlay' id='features'><h2>US population density</h2><div id='pd'><p>Hover over a state!</p></div></div>-->
+        <div class='map-overlay' id='legend'>
+            <p id="charttitle">the number of introuduced policies: </p>
+        </div>
+
+
+        <div class="map-overlay-inner">
+
+            <div id="chartContainer">
+                <p id="charttitle">change on mobility to: </p>
+
+                <tr>
+
+                    <td>destination of different categories：</td>
+                    <p class="credit">By @Chuyin Deng. Data: <a href="https://www.google.com/covid19/mobility/index.html"> Google mobility report. </a> </p>
+
+                    <div id="radio_list">
+                        <input type="radio" name="category" value="Grocery" />Grocery & pharmacy
+                        <input type="radio" name="category" value="Parks" />Parks
+                        <input type="radio" name="category" value="Residential" />Residential
+                        <input type="radio" name="category" value="Retail_recreation" />Retail & recreation
+                        <input type="radio" name="category" value="Transit_stations" />Transit stations
+                        <input type="radio" name="category" value="Workplaces" />Workplaces
+                    </div>
+
+
+                </tr>
+
+            </div>
+
+        </div>
+    </div>
+
+
+</body>
+<script>
+    mapboxgl.accessToken = 'pk.eyJ1IjoiZW1pbHl1Y2wiLCJhIjoiY2s1cDg5NjIwMWQ1ajNtcndmdmRuYzk3OCJ9.Q04kYUwYgf-RFoMQNgkKVA';
+
+    // Load a new map in the 'map' HTML div
+    var map = new mapboxgl.Map({
+        container: 'map', // container id
+        style: 'mapbox://styles/emilyucl/ck9cifnv10l1o1ipe8spunvb1',
+        center: [108.57, 34.17], // starting position [lng, lat]
+        zoom: 1.3 // starting zoom
+    });
+
+    map.on('load', function() {
+        //        d3.json("policy_json.json", function(poli) {
+        //            console.log(1)
+        //            console.log(poli);
+        //        })
+        d3.csv("./Page4/G20_1.csv", function(G20transportdata) {
+
+            //            console.log(G20transportdata)
+
+            var geojson = {};
+            geojson.type = 'FeatureCollection'; //Specify type is feature collection
+            geojson.features = []; //Create features array
+
+            for (var i = 0; i < G20transportdata.length; i++) {
+
+                var newFeature = { //Create each docking station feature as JSON object
+                    "type": "Feature",
+                    "geometry": {
+                        "type": "Point",
+                        "coordinates": [G20transportdata[i].longitude, G20transportdata[i].latitude]
+                    },
+                    "properties": {
+                        "name": G20transportdata[i].name,
+                        "country": G20transportdata[i].country,
+                        "latitude": G20transportdata[i].latitude,
+                        "longitude": G20transportdata[i].longitude,
+                        "category": G20transportdata[i].category,
+                        "counts": parseInt(G20transportdata[i].counts),
+                        "policy": G20transportdata[i].policy
+                    }
+                };
+                geojson.features.push(newFeature); //Add the new 
+            }
+            console.log(geojson);
+            //            JSON.stringify(products)
+            //            var tmp = JSON.stringify(geojson.features[0].properties.policy)
+            console.log(JSON.parse(geojson.features[0].properties.policy))
+            d3.json("./Page4/Grocery_pharmacy.json", function(Dataofcategory) {
+                chartData_Grocery = Dataofcategory;
+                console.log(Dataofcategory)
+            })
+            d3.json("./Page4/Parks.json", function(Dataofcategory) {
+                chartData_Parks = Dataofcategory;
+            })
+            d3.json("./Page4/Residential.json", function(Dataofcategory) {
+                chartData_Residential = Dataofcategory;
+            })
+            d3.json("./Page4/Retail_recreation.json", function(Dataofcategory) {
+                chartData_Retail_recreation = Dataofcategory;
+            })
+            d3.json("./Page4/Transit stations.json", function(Dataofcategory) {
+                chartData_Transit = Dataofcategory;
+            })
+            d3.json("./Page4/Workplaces.json", function(Dataofcategory) {
+                chartData_Workplaces = Dataofcategory;
+            })
+
+            map.addSource('points', { //Add the geojson to the map. Same syntax as earlier tube station proportional circles example
+                'type': 'geojson',
+                'data': geojson
+            });
+
+            map.addLayer({
+                id: 'G20countries',
+                type: 'circle',
+                source: 'points',
+                'layout': {
+                    'visibility': 'visible'
+                },
+                paint: {
+                    'circle-color': {
+                        property: 'counts',
+                        stops: [
+                            [0, "#ff0000"],
+                            [20, "#a60059"],
+                            [40, "#5900a6"],
+                            [80, "#0000ff"],
+                        ]
+                    },
+                    'circle-opacity': 0.6,
+                    'circle-stroke-width': 0.1,
+                    'circle-stroke-color': '#999',
+                    'circle-stroke-opacity': 1,
+                    'circle-radius': {
+                        property: 'counts',
+                        stops: [
+                            [{
+                                zoom: 1,
+                                value: 0
+                            }, 5],
+                            [{
+                                zoom: 1,
+                                value: 20
+                            }, 10],
+                            [{
+                                zoom: 1,
+                                value: 50
+                            }, 20],
+                            [{
+                                zoom: 1,
+                                value: 80
+                            }, 100],
+                            [{
+                                zoom: 10,
+                                value: 0
+                            }, 10],
+                            [{
+                                zoom: 10,
+                                value: 80
+                            }, 200],
+                            [{
+                                zoom: 16,
+                                value: 0
+                            }, 30],
+                            [{
+                                zoom: 16,
+                                value: 1000
+                            }, 600],
+                        ]
+                    }
+                }
+            });
+
+            function drawChart(chartData, countryname) {
+                var i;
+                for (i = 0; i < chartData.length; i++) {
+                    //                    console.log(chartData[i][0].name)
+                    if (chartData[i][0].name == countryname) {
+                        break;
+                    }
+                }
+                //                console.log(countryname)
+                //                console.log(i)
+
+                chartData = chartData[i];
+                //                console.log("chartdrawing")
+                //                console.log(chartData)
+                var myChart = new dimple.chart(svg, chartData); // Create the chart
+                myChart.setBounds(30, 5, 400, 170); // Set the chart bounds within the svg container
+
+                myChart.defaultColors = [
+                    new dimple.color("#FFD700"),
+                    new dimple.color("#54aae3"),
+                    new dimple.color("#ff0000")
+                ];
+
+                // Define the x axis.
+                var x = myChart.addCategoryAxis("x", "time");
+                var y1 = myChart.addMeasureAxis("y", "frequency");
+                y1.ticks = 6;
+
+                var ex = myChart.addSeries("frequency - ", dimple.plot.line, [x, y1]);
+                ex.lineMarkers = false;
+
+                myChart.addLegend("60%", "0%", "0px", "-20px")
+
+                myChart.draw(); // Draw the chart.
+
+                y1.titleShape.text("Number of Cases");
+
+                svg.append("text")
+                    .attr("x", 180)
+                    .attr("y", 230)
+                    .attr("text-anchor", "middle")
+                    .style("font-size", "10px")
+                    .style("text-decoration", "underline")
+
+
+            };
+
+
+            var svg = dimple.newSvg("#chartContainer", 450, 300);
+
+
+            var popup = new mapboxgl.Popup({
+                closeButton: false,
+                closeOnClick: false
+            });
+            map.on('mouseenter', 'G20countries', function(e) {
+
+                var category_checked = $("input[type='radio']:checked").val();
+
+                switch (category_checked) {
+                    case 'Grocery':
+                        chartData = chartData_Grocery;
+                        // code block
+                        break;
+                    case 'Parks':
+                        // code block
+                        chartData = chartData_Parks;
+                        break;
+                    case 'Residential':
+                        chartData = chartData_Residential;
+                        // code block
+                        break;
+                    case 'Retail_recreation':
+                        chartData = chartData_Retail_recreation;
+                        // code block
+                        break;
+                    case 'Transit_stations':
+                        chartData = chartData_Transit;
+                        // code block
+                        break;
+                    case 'Workplaces':
+                        chartData = chartData_Workplaces;
+                        // code block
+                        break;
+                    default:
+                        chartData = chartData_Grocery;
+                        // code block
+                }
+
+                document.getElementById("chartContainer").style.display = "block";
+                map.getCanvas().style.cursor = 'pointer';
+                countryname = e.features[0].properties.name;
+
+                //                    console.log(e.features[0].properties);    
+
+                svg.selectAll("*").remove();
+                drawChart(chartData, countryname);
+
+                var coordinates = e.features[0].geometry.coordinates.slice();
+                //                var policy_content ;
+                //                for (var i; i<e.features[0].properties.policy.length;i++){
+                //                    policy_content = """<p>policy: " + e.features[0].properties.policy+ "</p>"
+                //                }
+                var policy_content = JSON.parse(e.features[0].properties.policy);
+                var latest = policy_content[policy_content.length - 1];
+
+                var description = "<h3>" + e.features[0].properties.name + "</h3>" +
+                    "<h4>policy counts: " + e.features[0].properties.counts+ "</h4>" +
+                    "<h4>latest policy: " + "</h4>" +
+                    "<p>implemented date: " + latest.date_implemented + "</p>" +
+                    "<p>entry date: " + latest.entry_date + "</p>" +
+                    "<p>category: " + latest.category + "</p>" +
+                    "<p>measure detail: " + latest.measure + "</p>";
+
+                popup
+                    .setLngLat(coordinates)
+                    .setHTML(description)
+                    .addTo(map);
+
+            });
+            map.on('mouseleave', 'G20countries', function() {
+                map.getCanvas().style.cursor = '';
+                popup.remove();
+            });
+
+            var geojson_category = {};
+            //                geojson_category.type = 'FeatureCollection'; //Specify type is feature collection
+            //                geojson_category.features = []; //Create features array
+
+            var bottonselected = 'Parks';
+
+            var value = $("input[type='radio']:checked").val();
+            $("input[type='radio']").change(function() {
+                var category_checked = $("input[type='radio']:checked").val();
+
+                switch (category_checked) {
+                    case 'Grocery':
+                        chartData = chartData_Grocery;
+                        // code block
+                        break;
+                    case 'Parks':
+                        // code block
+                        chartData = chartData_Parks;
+                        break;
+                    case 'Residential':
+                        chartData = chartData_Residential;
+                        // code block
+                        break;
+                    case 'Retail_recreation':
+                        chartData = chartData_Retail_recreation;
+                        // code block
+                        break;
+                    case 'Transit_stations':
+                        chartData = chartData_Transit;
+                        // code block
+                        break;
+                    case 'Workplaces':
+                        chartData = chartData_Workplaces;
+                        // code block
+                        break;
+                    default:
+                        chartData = chartData_Grocery;
+                        // code block
+                }
+                svg.selectAll("*").remove();
+                drawChart(chartData, countryname);
+            });
+
+            //            document.getElementById("chartContainer").addEventListener('click', function() {
+            //
+            //                console.log("chartContainer")
+            //                $(this).toggleClass('min');
+            //                $(this).toggleClass('max');
+            //            }, false)
+            document.getElementById("chartContainer").addEventListener('click', function() {
+                console.log("chartContainer");
+                $("#chartContainer").toggleClass('min');
+                $("#chartContainer").toggleClass('max');
+            });
+        })
+        var layers = ['0-20', '20-40', '40-80'];
+        var colors = ['#ff0000', '#a60059', '#5900a6', '#0000ff'];
+        for (i = 0; i < layers.length; i++) {
+            var layer = layers[i];
+            var color = colors[i];
+            var item = document.createElement('div');
+            var key = document.createElement('span');
+            key.className = 'legend-key';
+            key.style.backgroundColor = color;
+
+            var value = document.createElement('span');
+            value.innerHTML = layer;
+            item.appendChild(key);
+            item.appendChild(value);
+            legend.appendChild(item);
+        }
+    })
+</script></html>
