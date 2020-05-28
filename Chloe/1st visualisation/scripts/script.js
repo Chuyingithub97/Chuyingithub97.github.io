@@ -1,4 +1,4 @@
-//================ SVG MAP VARIABLES =========================
+//SVG map
 
 var el = document.getElementById("svgMap"); // target element
 var rect = el.getBoundingClientRect(); // get the bounding rectangle
@@ -27,7 +27,7 @@ var svgMap = d3.select("#svgMap").append("svg")
 var parseDateMap = d3.time.format("%d/%m/%Y").parse;
 
 
-//================ CHART VARIABLES =========================
+//chart
 
 var elChart = document.getElementById("container"); // or other selector like querySelector()
 var rectChart = elChart.getBoundingClientRect(); // get the bounding rectangle
@@ -86,7 +86,7 @@ var svg = d3.select("#container")
 
 
 
-//================ SVG MAP & CHART PLOT  =========================
+//svg map with line chart 
 
 // Load external data: geojson file is hosted because of browser CORS issues. 
 queue()
@@ -143,7 +143,7 @@ function ready(error, topo, covid, stock) {
 
 
 
-    //=========== Draw the map
+    //draw the map
     gMap
         .selectAll("path")
         .data(topo.features)
@@ -157,7 +157,7 @@ function ready(error, topo, covid, stock) {
 
 
 
-    //============ Draw confirmed cases as circles
+    //draw confirmed cases as circles
     var circles =
         gMap.selectAll('circle')
         .data(covid)
@@ -178,7 +178,7 @@ function ready(error, topo, covid, stock) {
 
 
 
-    //========== stock chart
+    //stock market line chart
 
     // Select needed columns by taking out unnecessary ones
     color.domain(d3.keys(stock[0]).filter(function(key) {
@@ -363,7 +363,7 @@ function ready(error, topo, covid, stock) {
     var maxDate = d3.max(covid, d => d.Date);
 
 
-    //================ total confirmed cases
+    //total confirmed cases
 
     // sum confirmed cases by date
     var covidSum = d3.nest()
@@ -378,12 +378,12 @@ function ready(error, topo, covid, stock) {
             covidSum.map(function(d) { if (parseInt(d.key) === minDate) return d.values })[0]
         );
 
-    //======================== map info
+    //map info
     d3
         .select("#info")
         .text("Circles are scaled per 1,000");
 
-    //========================= sync chart
+    //sync chart
     var sync = svg.append("line")
         .attr("x1", x(minDate))
         .attr("y1", 0)
@@ -394,7 +394,7 @@ function ready(error, topo, covid, stock) {
         .style("stroke-width", 2)
         .style("fill", "none");
 
-    //======================= slider section
+    //slider section
 
     // create the noUiSlider
     var slider = d3.select("#mySlider").node();
@@ -472,7 +472,7 @@ function ready(error, topo, covid, stock) {
 
 
 
-//========================== Utilities ================================
+//utilities 
 
 var modal = document.getElementById("readMoreModal");
 var btn = document.getElementById("readMoreBtn");
