@@ -1,0 +1,267 @@
+Country,Lat,Long,ComfrimedCases,DeathCases
+US,37.0902,-95.7129,1680913,98913
+Brazil,-14.235,-51.9253,391222,24512
+Russia,60,90,362342,3807
+United Kingdom,55.3781,-3.436,265227,37048
+Spain,40,-4,236259,27117
+Italy,43,12,230555,32955
+Germany,51,9,181200,8372
+France,46.2276,2.2137,179887,28480
+Turkey,38.9637,35.2433,158762,4397
+India,21,78,150793,4344
+Iran,32,53,139511,7508
+Peru,-9.19,-75.0152,129751,3788
+Chile,-35.6751,-71.543,77961,806
+Saudi Arabia,24,45,76726,411
+Mexico,23.6345,-102.5528,74560,8134
+China Hubei,30.9756,112.2707,68135,4512
+Pakistan,30.3753,69.3451,57705,1197
+Belgium,50.8333,4,57455,9334
+Canada Quebec,52.9399,-73.5491,48607,4140
+Qatar,25.3548,51.1839,47207,28
+Netherlands,52.1326,5.2913,45578,5856
+Belarus,53.7098,27.9534,38059,208
+Ecuador,-1.8312,-78.1834,37355,3203
+Bangladesh,23.685,90.3563,36751,522
+Sweden,63,16,34440,4125
+Singapore,1.2833,103.8333,32343,23
+United Arab Emirates,24,54,31086,253
+Portugal,39.3999,-8.2245,31007,1342
+Switzerland,46.8182,8.2275,30761,1915
+Canada Ontario,51.2538,-85.3232,27624,2235
+Ireland,53.1424,-7.6921,24735,1615
+South Africa,-30.5595,22.9375,24264,524
+Indonesia,-0.7893,113.9213,23165,1418
+Colombia,4.5709,-74.2973,23003,776
+Kuwait,29.5,47.75,22575,172
+Poland,51.9194,19.1451,22074,1024
+Ukraine,48.3794,31.1656,21584,644
+Egypt,26,30,18756,797
+Romania,45.9432,24.9668,18429,1216
+Israel,31,35,16757,281
+Japan,36,138,16623,846
+Austria,47.5162,14.5501,16557,643
+Dominican Republic,18.7357,-70.1627,15264,468
+Philippines,13,122,14669,886
+Argentina,-38.4161,-63.6167,13228,484
+Afghanistan,33,65,11831,220
+Panama,8.538,-80.7821,11447,313
+Denmark,56.2639,9.5018,11428,563
+"Korea, South",36,128,11265,269
+Serbia,44.0165,21.0059,11227,239
+Bahrain,26.0275,50.55,9366,14
+Czechia,49.8175,15.473,9050,317
+Kazakhstan,48.0196,66.9237,8969,37
+Algeria,28.0339,1.6596,8697,617
+Norway,60.472,8.4689,8383,235
+Nigeria,9.082,8.6753,8344,249
+Oman,21,57,8118,37
+Malaysia,2.5,112.5,7604,115
+Morocco,31.7917,-7.0926,7577,202
+Armenia,40.0691,45.0382,7402,91
+Moldova,47.4116,28.3699,7305,267
+Bolivia,-16.2902,-63.5887,7136,274
+Ghana,7.9465,-1.0232,7117,34
+Canada Alberta,53.9333,-116.5765,6901,139
+Finland,64,26,6628,312
+Cameroon,3.848,11.5021,5436,175
+Iraq,33,44,4848,169
+Azerbaijan,40.1431,47.5769,4403,52
+Honduras,15.2,-86.2419,4401,188
+Luxembourg,49.8153,6.1296,3995,110
+Sudan,12.8628,30.2176,3976,170
+Guatemala,15.7835,-90.2308,3954,63
+Hungary,47.1625,19.5033,3771,499
+Uzbekistan,41.3775,64.5853,3290,14
+Guinea,9.9456,-9.6966,3275,20
+Tajikistan,38.861034,71.276093,3266,47
+Senegal,14.4974,-14.4524,3161,36
+Australia New South Wales,-33.8688,151.2093,3089,48
+Thailand,15,101,3045,57
+Greece,39.0742,21.8243,2892,173
+Canada British Columbia,49.2827,-123.1207,2541,161
+Cote d'Ivoire,7.54,-5.5471,2477,30
+Djibouti,11.8251,42.5903,2468,14
+Bulgaria,42.7339,25.4858,2443,130
+Bosnia and Herzegovina,43.9159,17.6791,2416,149
+Congo (Kinshasa),-4.0383,21.7587,2403,68
+Croatia,45.1,15.2,2244,101
+Gabon,-0.8037,11.6094,2238,14
+El Salvador,13.7942,-88.8965,2042,36
+North Macedonia,41.6086,21.7453,2014,116
+Cuba,22,-80,1963,82
+Estonia,58.5953,25.0136,1834,65
+Iceland,64.9631,-19.0208,1804,10
+Somalia,5.1521,46.1996,1711,67
+Lithuania,55.1694,23.8813,1639,65
+France Mayotte,-12.8275,45.1662,1634,20
+Australia Victoria,-37.8136,144.9631,1618,19
+China Guangdong,23.3417,113.4244,1592,8
+Slovakia,48.669,19.699,1513,28
+New Zealand,-40.9006,174.886,1504,21
+Slovenia,46.1512,14.9955,1469,108
+Kyrgyzstan,41.2044,74.7661,1468,16
+Maldives,3.2028,73.2207,1438,5
+Kenya,-0.0236,37.9062,1348,52
+Sri Lanka,7,81,1319,10
+China Henan,33.882,113.614,1276,22
+China Zhejiang,29.1832,120.0934,1268,1
+Venezuela,6.4238,-66.5897,1211,11
+Guinea-Bissau,11.8037,-15.1804,1178,7
+Haiti,18.9712,-72.2852,1174,33
+Lebanon,33.8547,35.8623,1140,26
+Mali,17.570692,-3.996166,1077,70
+China Hong Kong,22.3,114.2,1065,4
+Australia Queensland,-28.0167,153.4,1058,7
+Latvia,56.8796,24.6032,1053,22
+Canada Nova Scotia,44.682,-63.7443,1052,59
+Tunisia,34,9,1051,48
+Equatorial Guinea,1.5,10,1043,12
+Kosovo,42.602636,20.902977,1038,30
+Albania,41.1533,20.1683,1029,33
+China Hunan,27.6104,111.7088,1019,4
+China Anhui,31.8257,117.2264,991,6
+Costa Rica,9.7489,-83.7534,956,10
+Niger,17.6078,8.0817,952,63
+China Heilongjiang,47.862,127.7615,945,13
+Cyprus,35.1264,33.4299,939,17
+China Jiangxi,27.614,115.7221,937,1
+Zambia,-15.4167,28.2833,920,7
+Paraguay,-23.4425,-58.4438,877,11
+Burkina Faso,12.2383,-1.5616,832,52
+South Sudan,6.877,31.307,806,8
+Uruguay,-32.5228,-55.7658,789,22
+China Shandong,36.3427,118.1498,788,7
+Nepal,28.1667,84.25,772,4
+Andorra,42.5063,1.5218,763,51
+Nicaragua,12.8654,-85.2072,759,35
+Sierra Leone,8.460555,-11.779889,754,44
+Georgia,42.3154,43.3569,732,12
+Jordan,31.24,36.51,718,9
+Diamond Princess,0,0,712,13
+Ethiopia,9.145,40.4897,701,6
+Chad,15.4542,18.7322,700,62
+Central African Republic,6.6111,20.9394,671,1
+China Shanghai,31.202,121.4491,670,7
+San Marino,43.9424,12.4578,666,42
+China Jiangsu,32.9711,119.455,653,0
+Canada Saskatchewan,52.9399,-106.4509,634,8
+Malta,35.9375,14.3754,611,6
+China Beijing,40.1824,116.4142,593,9
+Madagascar,-18.7669,46.8691,586,2
+China Chongqing,30.0572,107.874,579,6
+Australia Western Australia,-31.9505,115.8605,570,9
+China Sichuan,30.6171,102.7103,564,3
+Jamaica,18.1096,-77.2975,564,9
+United Kingdom Channel Islands,49.3723,-2.3644,559,45
+Tanzania,-6.369,34.8888,509,21
+Congo (Brazzaville),-4.0383,21.7587,487,16
+France Reunion,-21.1351,55.2471,459,1
+Sao Tome and Principe,0.18636,6.613081,441,12
+Taiwan*,23.7,121,441,7
+Australia South Australia,-34.9285,138.6007,440,4
+West Bank and Gaza,31.9522,35.2332,429,3
+Togo,8.6195,0.8248,391,13
+Cabo Verde,16.5388,-23.0418,390,4
+France French Guiana,3.9339,-53.1258,384,1
+China Fujian,26.0789,117.9874,357,1
+Rwanda,-1.9403,29.8739,339,0
+United Kingdom Isle of Man,54.2361,-4.5481,336,24
+Mauritius,-20.2,57.5,334,10
+China Hebei,39.549,116.1306,328,6
+Vietnam,16,108,327,0
+Montenegro,42.5,19.3,324,9
+China Shaanxi,35.1917,108.8701,308,3
+Canada Manitoba,53.7609,-98.8139,292,7
+Mauritania,21.0079,10.9408,268,13
+Liberia,6.4281,-9.4295,266,26
+Eswatini,-26.5225,31.4659,261,2
+Canada Newfoundland and Labrador,53.1355,-57.6604,260,3
+China Guangxi,23.8298,108.7881,254,2
+Uganda,1,32,253,0
+Yemen,15.552727,48.516388,249,49
+China Inner Mongolia,44.0935,113.9448,232,1
+Australia Tasmania,-41.4545,145.9707,228,13
+Mozambique,-18.665695,35.529562,213,1
+Benin,9.3077,2.3158,208,3
+Burma,21.9162,95.956,206,6
+China Shanxi,37.5777,112.2922,198,0
+France Martiniquec,14.6415,-61.0242,197,14
+China Tianjin,39.3054,117.323,192,3
+Denmark Faroe Islands,61.8926,-6.9118,187,0
+China Yunnan,24.974,101.487,185,2
+China Hainan,19.1959,109.7453,169,6
+France Guadeloupe,16.25,-61.5833,161,14
+China Jilin,43.6661,126.1923,155,2
+United Kingdom Gibraltar,36.1408,-5.3536,154,0
+China Liaoning,41.2956,122.6085,149,2
+China Guizhou,26.8154,106.8748,147,2
+Brunei,4.5353,114.7277,141,1
+Mongolia,46.8625,103.8467,141,0
+China Gansu,37.8099,101.0583,139,2
+Guyana,5,-58.75,139,11
+United Kingdom Bermuda,32.3078,-64.7505,139,9
+United Kingdom Cayman Islands,19.3133,-81.2546,137,1
+Cambodia,11.55,104.9167,124,0
+Canada New Brunswick,46.5653,-66.4619,122,0
+Syria,34.802075,38.996815,121,4
+Trinidad and Tobago,10.6918,-61.2225,116,8
+Australia Australian Capital Territory,-35.4735,149.0124,107,3
+Malawi,-13.254308,34.301525,101,4
+Netherlands Aruba,12.5186,-70.0358,101,3
+Bahamas,25.0343,-77.3963,100,11
+Monaco,43.7333,7.4167,98,4
+Barbados,13.1939,-59.5432,92,7
+Comoros,-11.6455,43.3333,87,1
+Liechtenstein,47.14,9.55,82,1
+Libya,26.3351,17.228331,77,3
+Netherlands Sint Maarten,18.0425,-63.0548,77,15
+China Xinjiang,41.1129,85.2401,76,3
+China Ningxia,37.2692,106.1655,75,0
+Angola,-11.2027,17.8739,70,4
+France French Polynesia,-17.6797,149.4068,60,0
+Zimbabwe,-20,30,56,4
+China Macau,22.1667,113.55,45,0
+Burundi,-3.3731,29.9189,42,1
+France St Martin,18.0708,-63.0501,40,3
+Eritrea,15.1794,39.7823,39,0
+Botswana,-22.3285,24.6849,35,1
+Australia Northern Territory,-12.4634,130.8456,29,0
+Bhutan,27.5142,90.4336,27,0
+Canada Prince Edward Island,46.5107,-63.4168,27,0
+Antigua and Barbuda,17.0608,-61.7964,25,3
+Gambia,13.4432,-15.3101,25,1
+Timor-Leste,-8.874217,125.727539,24,0
+Grenada,12.1165,-61.679,23,0
+Namibia,-22.9576,18.4904,21,0
+Laos,19.85627,102.495496,19,0
+Belize,13.1939,-59.5432,18,2
+China Qinghai,35.7452,95.9956,18,0
+Fiji,-17.7134,178.065,18,0
+France New Caledonia,-20.9043,165.618,18,0
+Netherlands Curacao,12.1696,-68.99,18,1
+Saint Lucia,13.9094,-60.9789,18,0
+Saint Vincent and the Grenadines,12.9843,-61.2872,18,0
+Dominica,15.415,-61.371,16,0
+Saint Kitts and Nevis,17.357822,-62.782998,15,0
+Canada Grand Princess,37.6489,-122.6655,13,0
+United Kingdom Falkland Islands (Malvinas),-51.7963,-59.5236,13,0
+Denmark Greenland,71.7069,-42.6043,12,0
+Holy See,41.9029,12.4534,12,0
+United Kingdom Turks and Caicos Islands,21.694,-71.7979,12,1
+Canada Yukon,64.2823,-135,11,0
+Seychelles,-4.6796,55.492,11,0
+Suriname,3.9193,-56.0278,11,1
+United Kingdom Montserrat,16.7425,-62.1874,11,1
+MS Zaandam,0,0,9,2
+Western Sahara,24.2155,-12.8858,9,1
+Papua New Guinea,-6.315,143.9555,8,0
+United Kingdom British Virgin Islands,18.4207,-64.64,8,1
+France Saint Barthelemy,17.9,-62.8333,6,0
+"Netherlands Bonaire, Sint Eustatius and Saba",12.1784,-68.2385,6,0
+Canada Northwest Territories,64.8255,-124.8457,5,0
+United Kingdom Anguilla,18.2206,-63.0686,3,0
+Lesotho,-29.609988,28.233608,2,0
+Canada Diamond Princess,0,0,1,1
+China Tibet,31.6927,88.0924,1,0
+France Saint Pierre and Miquelon,46.8852,-56.3159,1,0

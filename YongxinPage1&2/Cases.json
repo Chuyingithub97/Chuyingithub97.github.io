@@ -1,0 +1,1864 @@
+[
+ {
+   "Country": "US",
+   "Lat": 37.0902,
+   "Long": -95.7129,
+   "ComfrimedCases": 1680913,
+   "DeathCases": 98913
+ },
+ {
+   "Country": "Brazil",
+   "Lat": -14.235,
+   "Long": -51.9253,
+   "ComfrimedCases": 391222,
+   "DeathCases": 24512
+ },
+ {
+   "Country": "Russia",
+   "Lat": 60,
+   "Long": 90,
+   "ComfrimedCases": 362342,
+   "DeathCases": 3807
+ },
+ {
+   "Country": "United Kingdom",
+   "Lat": 55.3781,
+   "Long": -3.436,
+   "ComfrimedCases": 265227,
+   "DeathCases": 37048
+ },
+ {
+   "Country": "Spain",
+   "Lat": 40,
+   "Long": -4,
+   "ComfrimedCases": 236259,
+   "DeathCases": 27117
+ },
+ {
+   "Country": "Italy",
+   "Lat": 43,
+   "Long": 12,
+   "ComfrimedCases": 230555,
+   "DeathCases": 32955
+ },
+ {
+   "Country": "Germany",
+   "Lat": 51,
+   "Long": 9,
+   "ComfrimedCases": 181200,
+   "DeathCases": 8372
+ },
+ {
+   "Country": "France",
+   "Lat": 46.2276,
+   "Long": 2.2137,
+   "ComfrimedCases": 179887,
+   "DeathCases": 28480
+ },
+ {
+   "Country": "Turkey",
+   "Lat": 38.9637,
+   "Long": 35.2433,
+   "ComfrimedCases": 158762,
+   "DeathCases": 4397
+ },
+ {
+   "Country": "India",
+   "Lat": 21,
+   "Long": 78,
+   "ComfrimedCases": 150793,
+   "DeathCases": 4344
+ },
+ {
+   "Country": "Iran",
+   "Lat": 32,
+   "Long": 53,
+   "ComfrimedCases": 139511,
+   "DeathCases": 7508
+ },
+ {
+   "Country": "Peru",
+   "Lat": -9.19,
+   "Long": -75.0152,
+   "ComfrimedCases": 129751,
+   "DeathCases": 3788
+ },
+ {
+   "Country": "Chile",
+   "Lat": -35.6751,
+   "Long": -71.543,
+   "ComfrimedCases": 77961,
+   "DeathCases": 806
+ },
+ {
+   "Country": "Saudi Arabia",
+   "Lat": 24,
+   "Long": 45,
+   "ComfrimedCases": 76726,
+   "DeathCases": 411
+ },
+ {
+   "Country": "Mexico",
+   "Lat": 23.6345,
+   "Long": -102.5528,
+   "ComfrimedCases": 74560,
+   "DeathCases": 8134
+ },
+ {
+   "Country": "China Hubei",
+   "Lat": 30.9756,
+   "Long": 112.2707,
+   "ComfrimedCases": 68135,
+   "DeathCases": 4512
+ },
+ {
+   "Country": "Pakistan",
+   "Lat": 30.3753,
+   "Long": 69.3451,
+   "ComfrimedCases": 57705,
+   "DeathCases": 1197
+ },
+ {
+   "Country": "Belgium",
+   "Lat": 50.8333,
+   "Long": 4,
+   "ComfrimedCases": 57455,
+   "DeathCases": 9334
+ },
+ {
+   "Country": "Canada Quebec",
+   "Lat": 52.9399,
+   "Long": -73.5491,
+   "ComfrimedCases": 48607,
+   "DeathCases": 4140
+ },
+ {
+   "Country": "Qatar",
+   "Lat": 25.3548,
+   "Long": 51.1839,
+   "ComfrimedCases": 47207,
+   "DeathCases": 28
+ },
+ {
+   "Country": "Netherlands",
+   "Lat": 52.1326,
+   "Long": 5.2913,
+   "ComfrimedCases": 45578,
+   "DeathCases": 5856
+ },
+ {
+   "Country": "Belarus",
+   "Lat": 53.7098,
+   "Long": 27.9534,
+   "ComfrimedCases": 38059,
+   "DeathCases": 208
+ },
+ {
+   "Country": "Ecuador",
+   "Lat": -1.8312,
+   "Long": -78.1834,
+   "ComfrimedCases": 37355,
+   "DeathCases": 3203
+ },
+ {
+   "Country": "Bangladesh",
+   "Lat": 23.685,
+   "Long": 90.3563,
+   "ComfrimedCases": 36751,
+   "DeathCases": 522
+ },
+ {
+   "Country": "Sweden",
+   "Lat": 63,
+   "Long": 16,
+   "ComfrimedCases": 34440,
+   "DeathCases": 4125
+ },
+ {
+   "Country": "Singapore",
+   "Lat": 1.2833,
+   "Long": 103.8333,
+   "ComfrimedCases": 32343,
+   "DeathCases": 23
+ },
+ {
+   "Country": "United Arab Emirates",
+   "Lat": 24,
+   "Long": 54,
+   "ComfrimedCases": 31086,
+   "DeathCases": 253
+ },
+ {
+   "Country": "Portugal",
+   "Lat": 39.3999,
+   "Long": -8.2245,
+   "ComfrimedCases": 31007,
+   "DeathCases": 1342
+ },
+ {
+   "Country": "Switzerland",
+   "Lat": 46.8182,
+   "Long": 8.2275,
+   "ComfrimedCases": 30761,
+   "DeathCases": 1915
+ },
+ {
+   "Country": "Canada Ontario",
+   "Lat": 51.2538,
+   "Long": -85.3232,
+   "ComfrimedCases": 27624,
+   "DeathCases": 2235
+ },
+ {
+   "Country": "Ireland",
+   "Lat": 53.1424,
+   "Long": -7.6921,
+   "ComfrimedCases": 24735,
+   "DeathCases": 1615
+ },
+ {
+   "Country": "South Africa",
+   "Lat": -30.5595,
+   "Long": 22.9375,
+   "ComfrimedCases": 24264,
+   "DeathCases": 524
+ },
+ {
+   "Country": "Indonesia",
+   "Lat": -0.7893,
+   "Long": 113.9213,
+   "ComfrimedCases": 23165,
+   "DeathCases": 1418
+ },
+ {
+   "Country": "Colombia",
+   "Lat": 4.5709,
+   "Long": -74.2973,
+   "ComfrimedCases": 23003,
+   "DeathCases": 776
+ },
+ {
+   "Country": "Kuwait",
+   "Lat": 29.5,
+   "Long": 47.75,
+   "ComfrimedCases": 22575,
+   "DeathCases": 172
+ },
+ {
+   "Country": "Poland",
+   "Lat": 51.9194,
+   "Long": 19.1451,
+   "ComfrimedCases": 22074,
+   "DeathCases": 1024
+ },
+ {
+   "Country": "Ukraine",
+   "Lat": 48.3794,
+   "Long": 31.1656,
+   "ComfrimedCases": 21584,
+   "DeathCases": 644
+ },
+ {
+   "Country": "Egypt",
+   "Lat": 26,
+   "Long": 30,
+   "ComfrimedCases": 18756,
+   "DeathCases": 797
+ },
+ {
+   "Country": "Romania",
+   "Lat": 45.9432,
+   "Long": 24.9668,
+   "ComfrimedCases": 18429,
+   "DeathCases": 1216
+ },
+ {
+   "Country": "Israel",
+   "Lat": 31,
+   "Long": 35,
+   "ComfrimedCases": 16757,
+   "DeathCases": 281
+ },
+ {
+   "Country": "Japan",
+   "Lat": 36,
+   "Long": 138,
+   "ComfrimedCases": 16623,
+   "DeathCases": 846
+ },
+ {
+   "Country": "Austria",
+   "Lat": 47.5162,
+   "Long": 14.5501,
+   "ComfrimedCases": 16557,
+   "DeathCases": 643
+ },
+ {
+   "Country": "Dominican Republic",
+   "Lat": 18.7357,
+   "Long": -70.1627,
+   "ComfrimedCases": 15264,
+   "DeathCases": 468
+ },
+ {
+   "Country": "Philippines",
+   "Lat": 13,
+   "Long": 122,
+   "ComfrimedCases": 14669,
+   "DeathCases": 886
+ },
+ {
+   "Country": "Argentina",
+   "Lat": -38.4161,
+   "Long": -63.6167,
+   "ComfrimedCases": 13228,
+   "DeathCases": 484
+ },
+ {
+   "Country": "Afghanistan",
+   "Lat": 33,
+   "Long": 65,
+   "ComfrimedCases": 11831,
+   "DeathCases": 220
+ },
+ {
+   "Country": "Panama",
+   "Lat": 8.538,
+   "Long": -80.7821,
+   "ComfrimedCases": 11447,
+   "DeathCases": 313
+ },
+ {
+   "Country": "Denmark",
+   "Lat": 56.2639,
+   "Long": 9.5018,
+   "ComfrimedCases": 11428,
+   "DeathCases": 563
+ },
+ {
+   "Country": "Korea, South",
+   "Lat": 36,
+   "Long": 128,
+   "ComfrimedCases": 11265,
+   "DeathCases": 269
+ },
+ {
+   "Country": "Serbia",
+   "Lat": 44.0165,
+   "Long": 21.0059,
+   "ComfrimedCases": 11227,
+   "DeathCases": 239
+ },
+ {
+   "Country": "Bahrain",
+   "Lat": 26.0275,
+   "Long": 50.55,
+   "ComfrimedCases": 9366,
+   "DeathCases": 14
+ },
+ {
+   "Country": "Czechia",
+   "Lat": 49.8175,
+   "Long": 15.473,
+   "ComfrimedCases": 9050,
+   "DeathCases": 317
+ },
+ {
+   "Country": "Kazakhstan",
+   "Lat": 48.0196,
+   "Long": 66.9237,
+   "ComfrimedCases": 8969,
+   "DeathCases": 37
+ },
+ {
+   "Country": "Algeria",
+   "Lat": 28.0339,
+   "Long": 1.6596,
+   "ComfrimedCases": 8697,
+   "DeathCases": 617
+ },
+ {
+   "Country": "Norway",
+   "Lat": 60.472,
+   "Long": 8.4689,
+   "ComfrimedCases": 8383,
+   "DeathCases": 235
+ },
+ {
+   "Country": "Nigeria",
+   "Lat": 9.082,
+   "Long": 8.6753,
+   "ComfrimedCases": 8344,
+   "DeathCases": 249
+ },
+ {
+   "Country": "Oman",
+   "Lat": 21,
+   "Long": 57,
+   "ComfrimedCases": 8118,
+   "DeathCases": 37
+ },
+ {
+   "Country": "Malaysia",
+   "Lat": 2.5,
+   "Long": 112.5,
+   "ComfrimedCases": 7604,
+   "DeathCases": 115
+ },
+ {
+   "Country": "Morocco",
+   "Lat": 31.7917,
+   "Long": -7.0926,
+   "ComfrimedCases": 7577,
+   "DeathCases": 202
+ },
+ {
+   "Country": "Armenia",
+   "Lat": 40.0691,
+   "Long": 45.0382,
+   "ComfrimedCases": 7402,
+   "DeathCases": 91
+ },
+ {
+   "Country": "Moldova",
+   "Lat": 47.4116,
+   "Long": 28.3699,
+   "ComfrimedCases": 7305,
+   "DeathCases": 267
+ },
+ {
+   "Country": "Bolivia",
+   "Lat": -16.2902,
+   "Long": -63.5887,
+   "ComfrimedCases": 7136,
+   "DeathCases": 274
+ },
+ {
+   "Country": "Ghana",
+   "Lat": 7.9465,
+   "Long": -1.0232,
+   "ComfrimedCases": 7117,
+   "DeathCases": 34
+ },
+ {
+   "Country": "Canada Alberta",
+   "Lat": 53.9333,
+   "Long": -116.5765,
+   "ComfrimedCases": 6901,
+   "DeathCases": 139
+ },
+ {
+   "Country": "Finland",
+   "Lat": 64,
+   "Long": 26,
+   "ComfrimedCases": 6628,
+   "DeathCases": 312
+ },
+ {
+   "Country": "Cameroon",
+   "Lat": 3.848,
+   "Long": 11.5021,
+   "ComfrimedCases": 5436,
+   "DeathCases": 175
+ },
+ {
+   "Country": "Iraq",
+   "Lat": 33,
+   "Long": 44,
+   "ComfrimedCases": 4848,
+   "DeathCases": 169
+ },
+ {
+   "Country": "Azerbaijan",
+   "Lat": 40.1431,
+   "Long": 47.5769,
+   "ComfrimedCases": 4403,
+   "DeathCases": 52
+ },
+ {
+   "Country": "Honduras",
+   "Lat": 15.2,
+   "Long": -86.2419,
+   "ComfrimedCases": 4401,
+   "DeathCases": 188
+ },
+ {
+   "Country": "Luxembourg",
+   "Lat": 49.8153,
+   "Long": 6.1296,
+   "ComfrimedCases": 3995,
+   "DeathCases": 110
+ },
+ {
+   "Country": "Sudan",
+   "Lat": 12.8628,
+   "Long": 30.2176,
+   "ComfrimedCases": 3976,
+   "DeathCases": 170
+ },
+ {
+   "Country": "Guatemala",
+   "Lat": 15.7835,
+   "Long": -90.2308,
+   "ComfrimedCases": 3954,
+   "DeathCases": 63
+ },
+ {
+   "Country": "Hungary",
+   "Lat": 47.1625,
+   "Long": 19.5033,
+   "ComfrimedCases": 3771,
+   "DeathCases": 499
+ },
+ {
+   "Country": "Uzbekistan",
+   "Lat": 41.3775,
+   "Long": 64.5853,
+   "ComfrimedCases": 3290,
+   "DeathCases": 14
+ },
+ {
+   "Country": "Guinea",
+   "Lat": 9.9456,
+   "Long": -9.6966,
+   "ComfrimedCases": 3275,
+   "DeathCases": 20
+ },
+ {
+   "Country": "Tajikistan",
+   "Lat": 38.861034,
+   "Long": 71.276093,
+   "ComfrimedCases": 3266,
+   "DeathCases": 47
+ },
+ {
+   "Country": "Senegal",
+   "Lat": 14.4974,
+   "Long": -14.4524,
+   "ComfrimedCases": 3161,
+   "DeathCases": 36
+ },
+ {
+   "Country": "Australia New South Wales",
+   "Lat": -33.8688,
+   "Long": 151.2093,
+   "ComfrimedCases": 3089,
+   "DeathCases": 48
+ },
+ {
+   "Country": "Thailand",
+   "Lat": 15,
+   "Long": 101,
+   "ComfrimedCases": 3045,
+   "DeathCases": 57
+ },
+ {
+   "Country": "Greece",
+   "Lat": 39.0742,
+   "Long": 21.8243,
+   "ComfrimedCases": 2892,
+   "DeathCases": 173
+ },
+ {
+   "Country": "Canada British Columbia",
+   "Lat": 49.2827,
+   "Long": -123.1207,
+   "ComfrimedCases": 2541,
+   "DeathCases": 161
+ },
+ {
+   "Country": "Cote d'Ivoire",
+   "Lat": 7.54,
+   "Long": -5.5471,
+   "ComfrimedCases": 2477,
+   "DeathCases": 30
+ },
+ {
+   "Country": "Djibouti",
+   "Lat": 11.8251,
+   "Long": 42.5903,
+   "ComfrimedCases": 2468,
+   "DeathCases": 14
+ },
+ {
+   "Country": "Bulgaria",
+   "Lat": 42.7339,
+   "Long": 25.4858,
+   "ComfrimedCases": 2443,
+   "DeathCases": 130
+ },
+ {
+   "Country": "Bosnia and Herzegovina",
+   "Lat": 43.9159,
+   "Long": 17.6791,
+   "ComfrimedCases": 2416,
+   "DeathCases": 149
+ },
+ {
+   "Country": "Congo (Kinshasa)",
+   "Lat": -4.0383,
+   "Long": 21.7587,
+   "ComfrimedCases": 2403,
+   "DeathCases": 68
+ },
+ {
+   "Country": "Croatia",
+   "Lat": 45.1,
+   "Long": 15.2,
+   "ComfrimedCases": 2244,
+   "DeathCases": 101
+ },
+ {
+   "Country": "Gabon",
+   "Lat": -0.8037,
+   "Long": 11.6094,
+   "ComfrimedCases": 2238,
+   "DeathCases": 14
+ },
+ {
+   "Country": "El Salvador",
+   "Lat": 13.7942,
+   "Long": -88.8965,
+   "ComfrimedCases": 2042,
+   "DeathCases": 36
+ },
+ {
+   "Country": "North Macedonia",
+   "Lat": 41.6086,
+   "Long": 21.7453,
+   "ComfrimedCases": 2014,
+   "DeathCases": 116
+ },
+ {
+   "Country": "Cuba",
+   "Lat": 22,
+   "Long": -80,
+   "ComfrimedCases": 1963,
+   "DeathCases": 82
+ },
+ {
+   "Country": "Estonia",
+   "Lat": 58.5953,
+   "Long": 25.0136,
+   "ComfrimedCases": 1834,
+   "DeathCases": 65
+ },
+ {
+   "Country": "Iceland",
+   "Lat": 64.9631,
+   "Long": -19.0208,
+   "ComfrimedCases": 1804,
+   "DeathCases": 10
+ },
+ {
+   "Country": "Somalia",
+   "Lat": 5.1521,
+   "Long": 46.1996,
+   "ComfrimedCases": 1711,
+   "DeathCases": 67
+ },
+ {
+   "Country": "Lithuania",
+   "Lat": 55.1694,
+   "Long": 23.8813,
+   "ComfrimedCases": 1639,
+   "DeathCases": 65
+ },
+ {
+   "Country": "France Mayotte",
+   "Lat": -12.8275,
+   "Long": 45.1662,
+   "ComfrimedCases": 1634,
+   "DeathCases": 20
+ },
+ {
+   "Country": "Australia Victoria",
+   "Lat": -37.8136,
+   "Long": 144.9631,
+   "ComfrimedCases": 1618,
+   "DeathCases": 19
+ },
+ {
+   "Country": "China Guangdong",
+   "Lat": 23.3417,
+   "Long": 113.4244,
+   "ComfrimedCases": 1592,
+   "DeathCases": 8
+ },
+ {
+   "Country": "Slovakia",
+   "Lat": 48.669,
+   "Long": 19.699,
+   "ComfrimedCases": 1513,
+   "DeathCases": 28
+ },
+ {
+   "Country": "New Zealand",
+   "Lat": -40.9006,
+   "Long": 174.886,
+   "ComfrimedCases": 1504,
+   "DeathCases": 21
+ },
+ {
+   "Country": "Slovenia",
+   "Lat": 46.1512,
+   "Long": 14.9955,
+   "ComfrimedCases": 1469,
+   "DeathCases": 108
+ },
+ {
+   "Country": "Kyrgyzstan",
+   "Lat": 41.2044,
+   "Long": 74.7661,
+   "ComfrimedCases": 1468,
+   "DeathCases": 16
+ },
+ {
+   "Country": "Maldives",
+   "Lat": 3.2028,
+   "Long": 73.2207,
+   "ComfrimedCases": 1438,
+   "DeathCases": 5
+ },
+ {
+   "Country": "Kenya",
+   "Lat": -0.0236,
+   "Long": 37.9062,
+   "ComfrimedCases": 1348,
+   "DeathCases": 52
+ },
+ {
+   "Country": "Sri Lanka",
+   "Lat": 7,
+   "Long": 81,
+   "ComfrimedCases": 1319,
+   "DeathCases": 10
+ },
+ {
+   "Country": "China Henan",
+   "Lat": 33.882,
+   "Long": 113.614,
+   "ComfrimedCases": 1276,
+   "DeathCases": 22
+ },
+ {
+   "Country": "China Zhejiang",
+   "Lat": 29.1832,
+   "Long": 120.0934,
+   "ComfrimedCases": 1268,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Venezuela",
+   "Lat": 6.4238,
+   "Long": -66.5897,
+   "ComfrimedCases": 1211,
+   "DeathCases": 11
+ },
+ {
+   "Country": "Guinea-Bissau",
+   "Lat": 11.8037,
+   "Long": -15.1804,
+   "ComfrimedCases": 1178,
+   "DeathCases": 7
+ },
+ {
+   "Country": "Haiti",
+   "Lat": 18.9712,
+   "Long": -72.2852,
+   "ComfrimedCases": 1174,
+   "DeathCases": 33
+ },
+ {
+   "Country": "Lebanon",
+   "Lat": 33.8547,
+   "Long": 35.8623,
+   "ComfrimedCases": 1140,
+   "DeathCases": 26
+ },
+ {
+   "Country": "Mali",
+   "Lat": 17.570692,
+   "Long": -3.996166,
+   "ComfrimedCases": 1077,
+   "DeathCases": 70
+ },
+ {
+   "Country": "China Hong Kong",
+   "Lat": 22.3,
+   "Long": 114.2,
+   "ComfrimedCases": 1065,
+   "DeathCases": 4
+ },
+ {
+   "Country": "Australia Queensland",
+   "Lat": -28.0167,
+   "Long": 153.4,
+   "ComfrimedCases": 1058,
+   "DeathCases": 7
+ },
+ {
+   "Country": "Latvia",
+   "Lat": 56.8796,
+   "Long": 24.6032,
+   "ComfrimedCases": 1053,
+   "DeathCases": 22
+ },
+ {
+   "Country": "Canada Nova Scotia",
+   "Lat": 44.682,
+   "Long": -63.7443,
+   "ComfrimedCases": 1052,
+   "DeathCases": 59
+ },
+ {
+   "Country": "Tunisia",
+   "Lat": 34,
+   "Long": 9,
+   "ComfrimedCases": 1051,
+   "DeathCases": 48
+ },
+ {
+   "Country": "Equatorial Guinea",
+   "Lat": 1.5,
+   "Long": 10,
+   "ComfrimedCases": 1043,
+   "DeathCases": 12
+ },
+ {
+   "Country": "Kosovo",
+   "Lat": 42.602636,
+   "Long": 20.902977,
+   "ComfrimedCases": 1038,
+   "DeathCases": 30
+ },
+ {
+   "Country": "Albania",
+   "Lat": 41.1533,
+   "Long": 20.1683,
+   "ComfrimedCases": 1029,
+   "DeathCases": 33
+ },
+ {
+   "Country": "China Hunan",
+   "Lat": 27.6104,
+   "Long": 111.7088,
+   "ComfrimedCases": 1019,
+   "DeathCases": 4
+ },
+ {
+   "Country": "China Anhui",
+   "Lat": 31.8257,
+   "Long": 117.2264,
+   "ComfrimedCases": 991,
+   "DeathCases": 6
+ },
+ {
+   "Country": "Costa Rica",
+   "Lat": 9.7489,
+   "Long": -83.7534,
+   "ComfrimedCases": 956,
+   "DeathCases": 10
+ },
+ {
+   "Country": "Niger",
+   "Lat": 17.6078,
+   "Long": 8.0817,
+   "ComfrimedCases": 952,
+   "DeathCases": 63
+ },
+ {
+   "Country": "China Heilongjiang",
+   "Lat": 47.862,
+   "Long": 127.7615,
+   "ComfrimedCases": 945,
+   "DeathCases": 13
+ },
+ {
+   "Country": "Cyprus",
+   "Lat": 35.1264,
+   "Long": 33.4299,
+   "ComfrimedCases": 939,
+   "DeathCases": 17
+ },
+ {
+   "Country": "China Jiangxi",
+   "Lat": 27.614,
+   "Long": 115.7221,
+   "ComfrimedCases": 937,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Zambia",
+   "Lat": -15.4167,
+   "Long": 28.2833,
+   "ComfrimedCases": 920,
+   "DeathCases": 7
+ },
+ {
+   "Country": "Paraguay",
+   "Lat": -23.4425,
+   "Long": -58.4438,
+   "ComfrimedCases": 877,
+   "DeathCases": 11
+ },
+ {
+   "Country": "Burkina Faso",
+   "Lat": 12.2383,
+   "Long": -1.5616,
+   "ComfrimedCases": 832,
+   "DeathCases": 52
+ },
+ {
+   "Country": "South Sudan",
+   "Lat": 6.877,
+   "Long": 31.307,
+   "ComfrimedCases": 806,
+   "DeathCases": 8
+ },
+ {
+   "Country": "Uruguay",
+   "Lat": -32.5228,
+   "Long": -55.7658,
+   "ComfrimedCases": 789,
+   "DeathCases": 22
+ },
+ {
+   "Country": "China Shandong",
+   "Lat": 36.3427,
+   "Long": 118.1498,
+   "ComfrimedCases": 788,
+   "DeathCases": 7
+ },
+ {
+   "Country": "Nepal",
+   "Lat": 28.1667,
+   "Long": 84.25,
+   "ComfrimedCases": 772,
+   "DeathCases": 4
+ },
+ {
+   "Country": "Andorra",
+   "Lat": 42.5063,
+   "Long": 1.5218,
+   "ComfrimedCases": 763,
+   "DeathCases": 51
+ },
+ {
+   "Country": "Nicaragua",
+   "Lat": 12.8654,
+   "Long": -85.2072,
+   "ComfrimedCases": 759,
+   "DeathCases": 35
+ },
+ {
+   "Country": "Sierra Leone",
+   "Lat": 8.460555,
+   "Long": -11.779889,
+   "ComfrimedCases": 754,
+   "DeathCases": 44
+ },
+ {
+   "Country": "Georgia",
+   "Lat": 42.3154,
+   "Long": 43.3569,
+   "ComfrimedCases": 732,
+   "DeathCases": 12
+ },
+ {
+   "Country": "Jordan",
+   "Lat": 31.24,
+   "Long": 36.51,
+   "ComfrimedCases": 718,
+   "DeathCases": 9
+ },
+ {
+   "Country": "Diamond Princess",
+   "Lat": 0,
+   "Long": 0,
+   "ComfrimedCases": 712,
+   "DeathCases": 13
+ },
+ {
+   "Country": "Ethiopia",
+   "Lat": 9.145,
+   "Long": 40.4897,
+   "ComfrimedCases": 701,
+   "DeathCases": 6
+ },
+ {
+   "Country": "Chad",
+   "Lat": 15.4542,
+   "Long": 18.7322,
+   "ComfrimedCases": 700,
+   "DeathCases": 62
+ },
+ {
+   "Country": "Central African Republic",
+   "Lat": 6.6111,
+   "Long": 20.9394,
+   "ComfrimedCases": 671,
+   "DeathCases": 1
+ },
+ {
+   "Country": "China Shanghai",
+   "Lat": 31.202,
+   "Long": 121.4491,
+   "ComfrimedCases": 670,
+   "DeathCases": 7
+ },
+ {
+   "Country": "San Marino",
+   "Lat": 43.9424,
+   "Long": 12.4578,
+   "ComfrimedCases": 666,
+   "DeathCases": 42
+ },
+ {
+   "Country": "China Jiangsu",
+   "Lat": 32.9711,
+   "Long": 119.455,
+   "ComfrimedCases": 653,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Canada Saskatchewan",
+   "Lat": 52.9399,
+   "Long": -106.4509,
+   "ComfrimedCases": 634,
+   "DeathCases": 8
+ },
+ {
+   "Country": "Malta",
+   "Lat": 35.9375,
+   "Long": 14.3754,
+   "ComfrimedCases": 611,
+   "DeathCases": 6
+ },
+ {
+   "Country": "China Beijing",
+   "Lat": 40.1824,
+   "Long": 116.4142,
+   "ComfrimedCases": 593,
+   "DeathCases": 9
+ },
+ {
+   "Country": "Madagascar",
+   "Lat": -18.7669,
+   "Long": 46.8691,
+   "ComfrimedCases": 586,
+   "DeathCases": 2
+ },
+ {
+   "Country": "China Chongqing",
+   "Lat": 30.0572,
+   "Long": 107.874,
+   "ComfrimedCases": 579,
+   "DeathCases": 6
+ },
+ {
+   "Country": "Australia Western Australia",
+   "Lat": -31.9505,
+   "Long": 115.8605,
+   "ComfrimedCases": 570,
+   "DeathCases": 9
+ },
+ {
+   "Country": "China Sichuan",
+   "Lat": 30.6171,
+   "Long": 102.7103,
+   "ComfrimedCases": 564,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Jamaica",
+   "Lat": 18.1096,
+   "Long": -77.2975,
+   "ComfrimedCases": 564,
+   "DeathCases": 9
+ },
+ {
+   "Country": "United Kingdom Channel Islands",
+   "Lat": 49.3723,
+   "Long": -2.3644,
+   "ComfrimedCases": 559,
+   "DeathCases": 45
+ },
+ {
+   "Country": "Tanzania",
+   "Lat": -6.369,
+   "Long": 34.8888,
+   "ComfrimedCases": 509,
+   "DeathCases": 21
+ },
+ {
+   "Country": "Congo (Brazzaville)",
+   "Lat": -4.0383,
+   "Long": 21.7587,
+   "ComfrimedCases": 487,
+   "DeathCases": 16
+ },
+ {
+   "Country": "France Reunion",
+   "Lat": -21.1351,
+   "Long": 55.2471,
+   "ComfrimedCases": 459,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Sao Tome and Principe",
+   "Lat": 0.18636,
+   "Long": 6.613081,
+   "ComfrimedCases": 441,
+   "DeathCases": 12
+ },
+ {
+   "Country": "Taiwan*",
+   "Lat": 23.7,
+   "Long": 121,
+   "ComfrimedCases": 441,
+   "DeathCases": 7
+ },
+ {
+   "Country": "Australia South Australia",
+   "Lat": -34.9285,
+   "Long": 138.6007,
+   "ComfrimedCases": 440,
+   "DeathCases": 4
+ },
+ {
+   "Country": "West Bank and Gaza",
+   "Lat": 31.9522,
+   "Long": 35.2332,
+   "ComfrimedCases": 429,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Togo",
+   "Lat": 8.6195,
+   "Long": 0.8248,
+   "ComfrimedCases": 391,
+   "DeathCases": 13
+ },
+ {
+   "Country": "Cabo Verde",
+   "Lat": 16.5388,
+   "Long": -23.0418,
+   "ComfrimedCases": 390,
+   "DeathCases": 4
+ },
+ {
+   "Country": "France French Guiana",
+   "Lat": 3.9339,
+   "Long": -53.1258,
+   "ComfrimedCases": 384,
+   "DeathCases": 1
+ },
+ {
+   "Country": "China Fujian",
+   "Lat": 26.0789,
+   "Long": 117.9874,
+   "ComfrimedCases": 357,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Rwanda",
+   "Lat": -1.9403,
+   "Long": 29.8739,
+   "ComfrimedCases": 339,
+   "DeathCases": 0
+ },
+ {
+   "Country": "United Kingdom Isle of Man",
+   "Lat": 54.2361,
+   "Long": -4.5481,
+   "ComfrimedCases": 336,
+   "DeathCases": 24
+ },
+ {
+   "Country": "Mauritius",
+   "Lat": -20.2,
+   "Long": 57.5,
+   "ComfrimedCases": 334,
+   "DeathCases": 10
+ },
+ {
+   "Country": "China Hebei",
+   "Lat": 39.549,
+   "Long": 116.1306,
+   "ComfrimedCases": 328,
+   "DeathCases": 6
+ },
+ {
+   "Country": "Vietnam",
+   "Lat": 16,
+   "Long": 108,
+   "ComfrimedCases": 327,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Montenegro",
+   "Lat": 42.5,
+   "Long": 19.3,
+   "ComfrimedCases": 324,
+   "DeathCases": 9
+ },
+ {
+   "Country": "China Shaanxi",
+   "Lat": 35.1917,
+   "Long": 108.8701,
+   "ComfrimedCases": 308,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Canada Manitoba",
+   "Lat": 53.7609,
+   "Long": -98.8139,
+   "ComfrimedCases": 292,
+   "DeathCases": 7
+ },
+ {
+   "Country": "Mauritania",
+   "Lat": 21.0079,
+   "Long": 10.9408,
+   "ComfrimedCases": 268,
+   "DeathCases": 13
+ },
+ {
+   "Country": "Liberia",
+   "Lat": 6.4281,
+   "Long": -9.4295,
+   "ComfrimedCases": 266,
+   "DeathCases": 26
+ },
+ {
+   "Country": "Eswatini",
+   "Lat": -26.5225,
+   "Long": 31.4659,
+   "ComfrimedCases": 261,
+   "DeathCases": 2
+ },
+ {
+   "Country": "Canada Newfoundland and Labrador",
+   "Lat": 53.1355,
+   "Long": -57.6604,
+   "ComfrimedCases": 260,
+   "DeathCases": 3
+ },
+ {
+   "Country": "China Guangxi",
+   "Lat": 23.8298,
+   "Long": 108.7881,
+   "ComfrimedCases": 254,
+   "DeathCases": 2
+ },
+ {
+   "Country": "Uganda",
+   "Lat": 1,
+   "Long": 32,
+   "ComfrimedCases": 253,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Yemen",
+   "Lat": 15.552727,
+   "Long": 48.516388,
+   "ComfrimedCases": 249,
+   "DeathCases": 49
+ },
+ {
+   "Country": "China Inner Mongolia",
+   "Lat": 44.0935,
+   "Long": 113.9448,
+   "ComfrimedCases": 232,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Australia Tasmania",
+   "Lat": -41.4545,
+   "Long": 145.9707,
+   "ComfrimedCases": 228,
+   "DeathCases": 13
+ },
+ {
+   "Country": "Mozambique",
+   "Lat": -18.665695,
+   "Long": 35.529562,
+   "ComfrimedCases": 213,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Benin",
+   "Lat": 9.3077,
+   "Long": 2.3158,
+   "ComfrimedCases": 208,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Burma",
+   "Lat": 21.9162,
+   "Long": 95.956,
+   "ComfrimedCases": 206,
+   "DeathCases": 6
+ },
+ {
+   "Country": "China Shanxi",
+   "Lat": 37.5777,
+   "Long": 112.2922,
+   "ComfrimedCases": 198,
+   "DeathCases": 0
+ },
+ {
+   "Country": "France Martiniquec",
+   "Lat": 14.6415,
+   "Long": -61.0242,
+   "ComfrimedCases": 197,
+   "DeathCases": 14
+ },
+ {
+   "Country": "China Tianjin",
+   "Lat": 39.3054,
+   "Long": 117.323,
+   "ComfrimedCases": 192,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Denmark Faroe Islands",
+   "Lat": 61.8926,
+   "Long": -6.9118,
+   "ComfrimedCases": 187,
+   "DeathCases": 0
+ },
+ {
+   "Country": "China Yunnan",
+   "Lat": 24.974,
+   "Long": 101.487,
+   "ComfrimedCases": 185,
+   "DeathCases": 2
+ },
+ {
+   "Country": "China Hainan",
+   "Lat": 19.1959,
+   "Long": 109.7453,
+   "ComfrimedCases": 169,
+   "DeathCases": 6
+ },
+ {
+   "Country": "France Guadeloupe",
+   "Lat": 16.25,
+   "Long": -61.5833,
+   "ComfrimedCases": 161,
+   "DeathCases": 14
+ },
+ {
+   "Country": "China Jilin",
+   "Lat": 43.6661,
+   "Long": 126.1923,
+   "ComfrimedCases": 155,
+   "DeathCases": 2
+ },
+ {
+   "Country": "United Kingdom Gibraltar",
+   "Lat": 36.1408,
+   "Long": -5.3536,
+   "ComfrimedCases": 154,
+   "DeathCases": 0
+ },
+ {
+   "Country": "China Liaoning",
+   "Lat": 41.2956,
+   "Long": 122.6085,
+   "ComfrimedCases": 149,
+   "DeathCases": 2
+ },
+ {
+   "Country": "China Guizhou",
+   "Lat": 26.8154,
+   "Long": 106.8748,
+   "ComfrimedCases": 147,
+   "DeathCases": 2
+ },
+ {
+   "Country": "Brunei",
+   "Lat": 4.5353,
+   "Long": 114.7277,
+   "ComfrimedCases": 141,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Mongolia",
+   "Lat": 46.8625,
+   "Long": 103.8467,
+   "ComfrimedCases": 141,
+   "DeathCases": 0
+ },
+ {
+   "Country": "China Gansu",
+   "Lat": 37.8099,
+   "Long": 101.0583,
+   "ComfrimedCases": 139,
+   "DeathCases": 2
+ },
+ {
+   "Country": "Guyana",
+   "Lat": 5,
+   "Long": -58.75,
+   "ComfrimedCases": 139,
+   "DeathCases": 11
+ },
+ {
+   "Country": "United Kingdom Bermuda",
+   "Lat": 32.3078,
+   "Long": -64.7505,
+   "ComfrimedCases": 139,
+   "DeathCases": 9
+ },
+ {
+   "Country": "United Kingdom Cayman Islands",
+   "Lat": 19.3133,
+   "Long": -81.2546,
+   "ComfrimedCases": 137,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Cambodia",
+   "Lat": 11.55,
+   "Long": 104.9167,
+   "ComfrimedCases": 124,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Canada New Brunswick",
+   "Lat": 46.5653,
+   "Long": -66.4619,
+   "ComfrimedCases": 122,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Syria",
+   "Lat": 34.802075,
+   "Long": 38.996815,
+   "ComfrimedCases": 121,
+   "DeathCases": 4
+ },
+ {
+   "Country": "Trinidad and Tobago",
+   "Lat": 10.6918,
+   "Long": -61.2225,
+   "ComfrimedCases": 116,
+   "DeathCases": 8
+ },
+ {
+   "Country": "Australia Australian Capital Territory",
+   "Lat": -35.4735,
+   "Long": 149.0124,
+   "ComfrimedCases": 107,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Malawi",
+   "Lat": -13.254308,
+   "Long": 34.301525,
+   "ComfrimedCases": 101,
+   "DeathCases": 4
+ },
+ {
+   "Country": "Netherlands Aruba",
+   "Lat": 12.5186,
+   "Long": -70.0358,
+   "ComfrimedCases": 101,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Bahamas",
+   "Lat": 25.0343,
+   "Long": -77.3963,
+   "ComfrimedCases": 100,
+   "DeathCases": 11
+ },
+ {
+   "Country": "Monaco",
+   "Lat": 43.7333,
+   "Long": 7.4167,
+   "ComfrimedCases": 98,
+   "DeathCases": 4
+ },
+ {
+   "Country": "Barbados",
+   "Lat": 13.1939,
+   "Long": -59.5432,
+   "ComfrimedCases": 92,
+   "DeathCases": 7
+ },
+ {
+   "Country": "Comoros",
+   "Lat": -11.6455,
+   "Long": 43.3333,
+   "ComfrimedCases": 87,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Liechtenstein",
+   "Lat": 47.14,
+   "Long": 9.55,
+   "ComfrimedCases": 82,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Libya",
+   "Lat": 26.3351,
+   "Long": 17.228331,
+   "ComfrimedCases": 77,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Netherlands Sint Maarten",
+   "Lat": 18.0425,
+   "Long": -63.0548,
+   "ComfrimedCases": 77,
+   "DeathCases": 15
+ },
+ {
+   "Country": "China Xinjiang",
+   "Lat": 41.1129,
+   "Long": 85.2401,
+   "ComfrimedCases": 76,
+   "DeathCases": 3
+ },
+ {
+   "Country": "China Ningxia",
+   "Lat": 37.2692,
+   "Long": 106.1655,
+   "ComfrimedCases": 75,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Angola",
+   "Lat": -11.2027,
+   "Long": 17.8739,
+   "ComfrimedCases": 70,
+   "DeathCases": 4
+ },
+ {
+   "Country": "France French Polynesia",
+   "Lat": -17.6797,
+   "Long": 149.4068,
+   "ComfrimedCases": 60,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Zimbabwe",
+   "Lat": -20,
+   "Long": 30,
+   "ComfrimedCases": 56,
+   "DeathCases": 4
+ },
+ {
+   "Country": "China Macau",
+   "Lat": 22.1667,
+   "Long": 113.55,
+   "ComfrimedCases": 45,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Burundi",
+   "Lat": -3.3731,
+   "Long": 29.9189,
+   "ComfrimedCases": 42,
+   "DeathCases": 1
+ },
+ {
+   "Country": "France St Martin",
+   "Lat": 18.0708,
+   "Long": -63.0501,
+   "ComfrimedCases": 40,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Eritrea",
+   "Lat": 15.1794,
+   "Long": 39.7823,
+   "ComfrimedCases": 39,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Botswana",
+   "Lat": -22.3285,
+   "Long": 24.6849,
+   "ComfrimedCases": 35,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Australia Northern Territory",
+   "Lat": -12.4634,
+   "Long": 130.8456,
+   "ComfrimedCases": 29,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Bhutan",
+   "Lat": 27.5142,
+   "Long": 90.4336,
+   "ComfrimedCases": 27,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Canada Prince Edward Island",
+   "Lat": 46.5107,
+   "Long": -63.4168,
+   "ComfrimedCases": 27,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Antigua and Barbuda",
+   "Lat": 17.0608,
+   "Long": -61.7964,
+   "ComfrimedCases": 25,
+   "DeathCases": 3
+ },
+ {
+   "Country": "Gambia",
+   "Lat": 13.4432,
+   "Long": -15.3101,
+   "ComfrimedCases": 25,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Timor-Leste",
+   "Lat": -8.874217,
+   "Long": 125.727539,
+   "ComfrimedCases": 24,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Grenada",
+   "Lat": 12.1165,
+   "Long": -61.679,
+   "ComfrimedCases": 23,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Namibia",
+   "Lat": -22.9576,
+   "Long": 18.4904,
+   "ComfrimedCases": 21,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Laos",
+   "Lat": 19.85627,
+   "Long": 102.495496,
+   "ComfrimedCases": 19,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Belize",
+   "Lat": 13.1939,
+   "Long": -59.5432,
+   "ComfrimedCases": 18,
+   "DeathCases": 2
+ },
+ {
+   "Country": "China Qinghai",
+   "Lat": 35.7452,
+   "Long": 95.9956,
+   "ComfrimedCases": 18,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Fiji",
+   "Lat": -17.7134,
+   "Long": 178.065,
+   "ComfrimedCases": 18,
+   "DeathCases": 0
+ },
+ {
+   "Country": "France New Caledonia",
+   "Lat": -20.9043,
+   "Long": 165.618,
+   "ComfrimedCases": 18,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Netherlands Curacao",
+   "Lat": 12.1696,
+   "Long": -68.99,
+   "ComfrimedCases": 18,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Saint Lucia",
+   "Lat": 13.9094,
+   "Long": -60.9789,
+   "ComfrimedCases": 18,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Saint Vincent and the Grenadines",
+   "Lat": 12.9843,
+   "Long": -61.2872,
+   "ComfrimedCases": 18,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Dominica",
+   "Lat": 15.415,
+   "Long": -61.371,
+   "ComfrimedCases": 16,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Saint Kitts and Nevis",
+   "Lat": 17.357822,
+   "Long": -62.782998,
+   "ComfrimedCases": 15,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Canada Grand Princess",
+   "Lat": 37.6489,
+   "Long": -122.6655,
+   "ComfrimedCases": 13,
+   "DeathCases": 0
+ },
+ {
+   "Country": "United Kingdom Falkland Islands (Malvinas)",
+   "Lat": -51.7963,
+   "Long": -59.5236,
+   "ComfrimedCases": 13,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Denmark Greenland",
+   "Lat": 71.7069,
+   "Long": -42.6043,
+   "ComfrimedCases": 12,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Holy See",
+   "Lat": 41.9029,
+   "Long": 12.4534,
+   "ComfrimedCases": 12,
+   "DeathCases": 0
+ },
+ {
+   "Country": "United Kingdom Turks and Caicos Islands",
+   "Lat": 21.694,
+   "Long": -71.7979,
+   "ComfrimedCases": 12,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Canada Yukon",
+   "Lat": 64.2823,
+   "Long": -135,
+   "ComfrimedCases": 11,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Seychelles",
+   "Lat": -4.6796,
+   "Long": 55.492,
+   "ComfrimedCases": 11,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Suriname",
+   "Lat": 3.9193,
+   "Long": -56.0278,
+   "ComfrimedCases": 11,
+   "DeathCases": 1
+ },
+ {
+   "Country": "United Kingdom Montserrat",
+   "Lat": 16.7425,
+   "Long": -62.1874,
+   "ComfrimedCases": 11,
+   "DeathCases": 1
+ },
+ {
+   "Country": "MS Zaandam",
+   "Lat": 0,
+   "Long": 0,
+   "ComfrimedCases": 9,
+   "DeathCases": 2
+ },
+ {
+   "Country": "Western Sahara",
+   "Lat": 24.2155,
+   "Long": -12.8858,
+   "ComfrimedCases": 9,
+   "DeathCases": 1
+ },
+ {
+   "Country": "Papua New Guinea",
+   "Lat": -6.315,
+   "Long": 143.9555,
+   "ComfrimedCases": 8,
+   "DeathCases": 0
+ },
+ {
+   "Country": "United Kingdom British Virgin Islands",
+   "Lat": 18.4207,
+   "Long": -64.64,
+   "ComfrimedCases": 8,
+   "DeathCases": 1
+ },
+ {
+   "Country": "France Saint Barthelemy",
+   "Lat": 17.9,
+   "Long": -62.8333,
+   "ComfrimedCases": 6,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Netherlands Bonaire, Sint Eustatius and Saba",
+   "Lat": 12.1784,
+   "Long": -68.2385,
+   "ComfrimedCases": 6,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Canada Northwest Territories",
+   "Lat": 64.8255,
+   "Long": -124.8457,
+   "ComfrimedCases": 5,
+   "DeathCases": 0
+ },
+ {
+   "Country": "United Kingdom Anguilla",
+   "Lat": 18.2206,
+   "Long": -63.0686,
+   "ComfrimedCases": 3,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Lesotho",
+   "Lat": -29.609988,
+   "Long": 28.233608,
+   "ComfrimedCases": 2,
+   "DeathCases": 0
+ },
+ {
+   "Country": "Canada Diamond Princess",
+   "Lat": 0,
+   "Long": 0,
+   "ComfrimedCases": 1,
+   "DeathCases": 1
+ },
+ {
+   "Country": "China Tibet",
+   "Lat": 31.6927,
+   "Long": 88.0924,
+   "ComfrimedCases": 1,
+   "DeathCases": 0
+ },
+ {
+   "Country": "France Saint Pierre and Miquelon",
+   "Lat": 46.8852,
+   "Long": -56.3159,
+   "ComfrimedCases": 1,
+   "DeathCases": 0
+ }
+]
